@@ -2,6 +2,7 @@
 .container {
   display: flex;
   flex-direction: row;
+
 }
 
 .profileContainer {
@@ -38,7 +39,7 @@
   display: flex;
   justify-content: flex-start;  
   font-size: 16px;
-  margin-bottom: 10px; 
+  margin-bottom: 25px; 
 }
 
 .infoItem span:first-child {
@@ -69,25 +70,100 @@
 }
 
 .styleContent {
-  margin-top: 3rem;
+  margin-top: 1rem;
+  left: 2.4rem;
+  position: relative;
 }
 
+.styleContent1 {
+  margin-top: 1rem;
+  position: relative;
+  left: -1rem;
+}
+
+.styleContent2 {
+  margin-top: 8rem;
+  position: relative;
+  left: 1rem;
+}
+
+.styleContent3 {
+  margin-top: 8rem;
+  position: relative;
+  left: 0.9rem;
+  top: 0.1rem;
+}
+
+
 .circle {
-  width: 60px; 
-  height: 60px; 
-  background-color: #5865f2;
-  border-radius: 50%; 
+  width: 60px;
+  height: 60px;
+  background-color: #121c85;
+  border-radius: 50%;
   position: absolute;
-  left: 4rem;
+  left: 11rem;
+  top: 4rem;
+  background-image: url('../../static/img/blog/github.png');
+  background-size: 110%;
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 
 .circle1 {
-  width: 60px; 
-  height: 60px; 
-  background-color: #5865f2;
-  border-radius: 50%; 
+  width: 60px;
+  height: 60px;
+  background-color: #121c85;
+  border-radius: 50%;
   position: absolute;
+  bottom: -10px;
+  left: -5rem;
+  top: 4rem;
+  background-image: url('../../static/img/blog/plabfootball.png');
+  background-size: 80%;
+  background-position: center; 
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
+
+.circle2 {
+  width: 60px;
+  height: 60px;
+  background-color: #121c85;
+  border-radius: 50%;
+  position: absolute;
+  left: 11rem;
+  top: 6rem;
+  background-image: url('../../static/img/blog/docusaurus.png');
+  background-size: 80%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.circle3 {
+  width: 60px;
+  height: 60px;
+  background-color: #121c85;
+  border-radius: 50%;
+  position: absolute;
+  left: -3rem;
+  top: 6rem;
+  background-image: url('../../static/img/blog/notion.png');
+  background-size: 140%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.styleFont {
+  font-weight: bold;
+  color: #5865f2;
+  font-size: 1.3rem;
+}
+
+.fontStyleSize {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 
 
 

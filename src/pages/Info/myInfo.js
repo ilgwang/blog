@@ -3,6 +3,7 @@ import myInfo from "../myInfo.module.css";  // CSS 모듈 import
 import profile from '../../../static/img/blog/profile.jpg';
 import githubImage from '../../../static/img/blog/githubImage.png';
 import docusaurusImage from '../../../static/img/blog/docusaurus.png';
+import github from '../../../static/img/blog/github.png';
 
 const MyInfo = () => {
   return (
@@ -18,7 +19,7 @@ const MyInfo = () => {
             </div>
             <div className={myInfo.infoItem}>
                 <span>주소</span>
-                <span>서울특별시 송파구</span>
+                <span>서울 송파구</span>
             </div>
             <div className={myInfo.infoItem}>
                 <span>이메일</span>
@@ -49,23 +50,50 @@ const MyInfo = () => {
                   <div className={myInfo.gitlabStyle}>https://example.com</div>
               </div>
           </div>
-          <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '1rem'}}>
-            <div style={{ textAlign: 'right', position: 'relative' }}>
-              <div className={myInfo.circle}></div>
-              <div className={myInfo.styleContent}>
-                <div>능동적인 학습 자세</div>
-                <div>스터디와 프로젝트를 통한 학습</div>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center', marginTop: '1rem' }}>
+            {/* 첫 번째 줄 */}
+            <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+              {/* 첫 번째 항목 */}
+              <div style={{ textAlign: 'right', position: 'relative' }}>
+                <div className={myInfo.circle}></div>
+                <div className={myInfo.styleContent}>
+                  <div className={myInfo.styleFont}>능동적인 학습</div>
+                  <div className={myInfo.fontStyleSize}>1일 1잔디</div>
+                </div>
+              </div>
+
+              {/* 두 번째 항목 */}
+              <div style={{ textAlign: 'left', position: 'relative' }}>
+                <div className={myInfo.circle1}></div>
+                <div className={myInfo.styleContent1}>
+                  <div className={myInfo.styleFont}>꾸준한 운동</div>
+                  <div className={myInfo.fontStyleSize}>매주 1회 풋살 경기</div>
+                </div>
               </div>
             </div>
-            <div style={{ textAlign: 'right', position: 'relative' }}>
-              <div className={myInfo.circle1}></div>
-              <div className={myInfo.styleContent}>
-                <div>능동적인 학습 자세</div>
-                <div>스터디와 프로젝트를 통한 학습</div>
+
+            {/* 두 번째 줄 */}
+            <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+              {/* 세 번째 항목 */}
+              <div style={{ textAlign: 'right', position: 'relative' }}>
+                <div className={myInfo.circle2}></div>
+                <div className={myInfo.styleContent2}>
+                  <div className={myInfo.styleFont}>꾸준한 기록</div>
+                  <div className={myInfo.fontStyleSize}>테크 블로그 작성</div>
+                </div>
+              </div>
+
+              {/* 네 번째 항목 */}
+              <div style={{ textAlign: 'left', position: 'relative' }}>
+                <div className={myInfo.circle3}></div>
+                <div className={myInfo.styleContent3}>
+                  <div className={myInfo.styleFont}>계획적 개발</div>
+                  <div className={myInfo.fontStyleSize}>노션을 통한 일정 관리</div>
+                </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
