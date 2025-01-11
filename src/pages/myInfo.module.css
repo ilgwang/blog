@@ -1,0 +1,95 @@
+/* myInfo.module.css */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.profileContainer {
+  width: 181px; 
+  overflow: hidden; 
+}
+
+.box {
+  padding: 10px;
+  margin: 10px;
+}
+
+.divider {
+  width: 1px;
+  background-color: rgb(146, 140, 140);
+}
+
+.profileStyle {
+  width: 180px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: flex-start;  
+  font-size: 16px;
+  margin-bottom: 10px; 
+}
+
+.infoItem span:first-child {
+  width: 70px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.infoItem span:last-child {
+  margin-left: 10px;
+}
+
+.gitlabStyle {
+  text-align: left;
+  color: cornflowerblue;
+  font-weight: bold;
+}
+
+.githubImage {
+  width: 45px;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+.profileBackground {
+  background-color: rgb(195, 232, 247);
+  width: 35rem;
+}
+
+.styleContent {
+  margin-top: 3rem;
+}
+
+.circle {
+  width: 60px; 
+  height: 60px; 
+  background-color: #5865f2;
+  border-radius: 50%; 
+  position: absolute;
+  left: 4rem;
+}
+
+.circle1 {
+  width: 60px; 
+  height: 60px; 
+  background-color: #5865f2;
+  border-radius: 50%; 
+  position: absolute;
+}
+
+
+
+
+
