@@ -13,7 +13,29 @@ const History = () => {
         <div className={myInfo.container}>
             <div className={myInfo.box}>
                 <div className={myInfo.profileContainer}>
+                    <h3 className={myInfo.historyDateColor}>2023.06 ~ 2024.01 <span className={myInfo.historyCompanyName}>&nbsp;&nbsp;&nbsp;&nbsp;NEXT CORE</span> </h3>
+                    <span className={myInfo.workDays2}>8개월</span>
+                </div>
+                <div className={myInfo.companyWork}>
+                    <ul >
+                        <li>SKT Flow NMS WEB 시스템 고도화</li>
+                        <li>NMS WEB 시스템 유지보스</li>
+                        <li>현대커머셜 지게차 렌탈 WEB 시스템 구축 참여</li>
+                        <li>강남구청 반지하 주택 침수방지 WEB 시스템 구축</li>
+                        <li>Skill Keywords</li>
+                        <span className={myInfo.skillKeyword}>Java</span>
+                        <span className={myInfo.skillKeyword}>Spring</span>
+                        <span className={myInfo.skillKeyword}>Spring Boot</span>
+                        <span className={myInfo.skillKeyword}>MySql</span>
+                        <span className={myInfo.skillKeyword}>InteliJ</span>
+                        <span className={myInfo.skillKeyword}>Trino</span>
+                        <span className={myInfo.skillKeyword}>Impla</span>
+                    </ul>
+                </div>
+
+                <div className={myInfo.profileContainer}>
                     <h3 className={myInfo.historyDateColor}>2022.01 ~ 2023.05 <span className={myInfo.historyCompanyName}>&nbsp;&nbsp;&nbsp;&nbsp;MJIT</span></h3>
+                    <span className={myInfo.workDays}>1년 4개월</span>
                 </div>
                 <div className={myInfo.companyWork}>
                     <ul >
@@ -28,6 +50,7 @@ const History = () => {
                         <span className={myInfo.skillKeyword}>Visual Studio Code</span>
                     </ul>
                 </div>
+                
             </div>
             <div className={myInfo.box}>
 

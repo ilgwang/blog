@@ -69,6 +69,7 @@
 
   .historyDateColor {
     color: darkgray;
+    text-align: left;
   }
   
   .historyCompanyName {
@@ -79,6 +80,7 @@
     margin-left: 14.5rem;
     width: 100%;
     text-align: left;
+    font-size: 14px;
   }
 
   .skillKeyword {
@@ -88,6 +90,24 @@
     color: white;
     display: inline;
     margin-left: 0.4rem;
+  }
+
+  .workDays {
+    background-color: aqua;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    left: 9.7rem;
+    top: 20rem;
+  }
+
+  .workDays2 {
+    background-color: aqua;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    left: 11rem;
+    top: 8rem;
   }
   
   
