@@ -35,3 +35,46 @@
   border-radius: 10px;
 }
 
+.styleArrow {
+  position: absolute; 
+  top: 50%;
+  left: 80%; 
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 1024;
+  width: 4%;
+  cursor: pointer; 
+}
+
+.styleArrow2 {
+  position: absolute; 
+  top: 50%;
+  left: 20%; 
+  transform: translate(-50%, -50%) rotate(180deg);
+  color: white;
+  z-index: 1024;
+  width: 4%;
+  cursor: pointer; 
+}
+
+.arrowImg {
+  filter: invert(100%) brightness(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.arrowImg:hover {
+  filter: invert(100%) brightness(200%);
+  transform: scale(1.1); 
+}
+
+.historyContainer {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 2;
+}
+
+
+
+

@@ -71,7 +71,7 @@
 
 .styleContent {
   margin-top: 1rem;
-  left: 2.4rem;
+  left: 3.4rem;
   position: relative;
 }
 
@@ -162,6 +162,10 @@
 .fontStyleSize {
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.iconLink {
+  text-decoration: none;
 }
 
 

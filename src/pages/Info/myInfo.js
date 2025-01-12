@@ -3,7 +3,6 @@ import myInfo from "../myInfo.module.css";  // CSS 모듈 import
 import profile from '../../../static/img/blog/profile.jpg';
 import githubImage from '../../../static/img/blog/githubImage.png';
 import docusaurusImage from '../../../static/img/blog/docusaurus.png';
-import github from '../../../static/img/blog/github.png';
 
 const MyInfo = () => {
   return (
@@ -58,7 +57,7 @@ const MyInfo = () => {
               <div style={{ textAlign: 'right', position: 'relative' }}>
                 <div className={myInfo.circle}></div>
                 <div className={myInfo.styleContent}>
-                  <div className={myInfo.styleFont}>능동적인 학습</div>
+                  <div className={myInfo.styleFont}>꾸준한 학습</div>
                   <div className={myInfo.fontStyleSize}>1일 1잔디</div>
                 </div>
               </div>
@@ -92,6 +91,7 @@ const MyInfo = () => {
                   <div className={myInfo.fontStyleSize}>노션을 통한 일정 관리</div>
                 </div>
               </div>
+
             </div>
           </div>
         </div>

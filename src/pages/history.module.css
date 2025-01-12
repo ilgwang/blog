@@ -1,0 +1,96 @@
+/* myInfo.module.css */
+.backgroundColor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    z-index: 2;
+    text-align: center;
+    background-color: rgb(254, 254, 254);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100vh;
+    height: 60vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .profileContainer {
+    width: 20rem; 
+    overflow: hidden; 
+  }
+  
+  .box {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .divider {
+    width: 1px;
+    background-color: rgb(146, 140, 140);
+  }
+  
+  .profileStyle {
+    width: 180px;
+  }
+  
+  .gitlabStyle {
+    text-align: left;
+    color: cornflowerblue;
+    font-weight: bold;
+  }
+  
+  .githubImage {
+    width: 45px;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+  }
+  
+  .profileBackground {
+    background-color: rgb(195, 232, 247);
+    width: 35rem;
+  }
+  
+  .headFont {
+    text-align: left;
+    color: cornflowerblue;
+  }
+
+  .headFontwidth {
+    font-size: 12px;
+    color: black;
+    background-color: lightgrey;
+    border-radius: 10%;
+  }
+
+  .historyDateColor {
+    color: darkgray;
+  }
+  
+  .historyCompanyName {
+    color:black;
+  }
+
+  .companyWork {
+    margin-left: 14.5rem;
+    width: 100%;
+    text-align: left;
+  }
+
+  .skillKeyword {
+    display: block;  
+    margin-top: 5px; 
+    background-color: darkslateblue;
+    color: white;
+    display: inline;
+    margin-left: 0.4rem;
+  }
+  
+  
+  
+  
+  
