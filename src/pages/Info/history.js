@@ -39,7 +39,7 @@ const History = () => {
                 </div>
                 <div className={myInfo.companyWork}>
                     <ul >
-                        <li>포니정 장학재단 관리자 포털 고도화</li>
+                        <li>포니정 장학재단 관리자 포털 고도화 !</li>
                         <li>KT AICC API GATEWAY 운영</li>
                         <li>KT AICC 관리자 포털 운영</li>
                         <li>KT AICC 관리자 포털 통계 고도화 UIUX 개발</li>
