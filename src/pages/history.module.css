@@ -1,55 +1,29 @@
-/* myInfo.module.css */
-.backgroundColor {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    z-index: 2;
-    text-align: center;
-    background-color: rgb(254, 254, 254);
-    padding: 20px;
-    border-radius: 10px;
-    width: 100vh;
-    height: 60vh;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
+ .backgroundColor{
+    width: 100%;
+    height: auto;
   }
   
   .profileContainer {
-    width: 20rem; 
     overflow: hidden; 
+    float: left;
+  }
+
+  .profileContainer2 {
+    position: relative;
+    top: -2rem;
+  }
+
+  .profileContainer3 {
+    position: relative;
+    top: -4rem;
+  }
+
+  profileContainer3 {
+    position: relative;
+    top: -4rem;
   }
   
-  .box {
-    padding: 10px;
-    margin: 10px;
-  }
-  
-  .divider {
-    width: 1px;
-    background-color: rgb(146, 140, 140);
-  }
-  
-  .profileStyle {
-    width: 180px;
-  }
-  
-  .gitlabStyle {
-    text-align: left;
-    color: cornflowerblue;
-    font-weight: bold;
-  }
-  
-  .githubImage {
-    width: 45px;
-    margin-left: 1rem;
-    margin-top: 0.3rem;
-  }
-  
+    
   .profileBackground {
     background-color: rgb(195, 232, 247);
     width: 35rem;
@@ -61,7 +35,7 @@
   }
 
   .headFontwidth {
-    font-size: 12px;
+    font-size: 10px;
     color: black;
     background-color: lightgrey;
     border-radius: 10%;
@@ -69,18 +43,20 @@
 
   .historyDateColor {
     color: darkgray;
-    text-align: left;
+    text-align: right;
   }
   
   .historyCompanyName {
     color:black;
+    font-size: 12px;
   }
 
   .companyWork {
-    margin-left: 14.5rem;
-    width: 100%;
     text-align: left;
-    font-size: 14px;
+    font-size: 10px;
+    width: 35rem;
+    margin-top: 2rem;
+    
   }
 
   .skillKeyword {
@@ -97,8 +73,8 @@
     font-size: 12px;
     font-weight: bold;
     position: absolute;
-    left: 9.7rem;
-    top: 20rem;
+    left: 11rem;
+    top: 2rem;
   }
 
   .workDays2 {
@@ -107,10 +83,23 @@
     font-weight: bold;
     position: absolute;
     left: 11rem;
-    top: 8rem;
+    top: 2rem;
   }
-  
-  
-  
-  
-  
+
+  .workDays3 {
+    background-color: aqua;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    top: 10rem;
+  }
+
+  .ulPosition {
+    position: relative;
+    top:-2rem;
+  }
+
+  .ulPosition2 {
+    position: relative;
+    top:-4rem;
+  }

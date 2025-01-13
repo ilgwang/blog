@@ -24,16 +24,16 @@ function Home() {
   }, []);
 
   // 오른쪽 화살표 클릭 시: MyInfo 숨기고 History 보이기
-  // const handleArrowRightClick = () => {
-  //   setIsMyInfoVisible(false);
-  //   setIsHistoryVisible(true);
-  // };
+  const handleArrowRightClick = () => {
+    setIsMyInfoVisible(false);
+    setIsHistoryVisible(true);
+  };
 
   // 왼쪽 화살표 클릭 시: History 숨기고 MyInfo 보이기
-  // const handleArrowLeftClick = () => {
-  //   setIsHistoryVisible(false);
-  //   setIsMyInfoVisible(true);
-  // };
+  const handleArrowLeftClick = () => {
+    setIsHistoryVisible(false);
+    setIsMyInfoVisible(true);
+  };
 
   return (
     <Layout title="Home">
@@ -43,37 +43,37 @@ function Home() {
             <video className={styles.videoStyle} src={videoBackground} autoPlay loop muted />
           </div>
 
-          {/* {isMyInfoVisible && (
+          {isMyInfoVisible && (
             <div className={styles.myInfoContainer}>
-              <MyInfo />
+              <History />
             </div>
-          )} */}
+          )}
 
           {/* 오른쪽 화살표 클릭 시 History로 이동 */}
-          {/* <div className={styles.styleArrow} onClick={handleArrowRightClick}>
+          <div className={styles.styleArrow} onClick={handleArrowRightClick}>
             <img 
               src={arrowRight} 
               className={styles.arrowImg} 
               alt="Arrow" 
               style={{ filter: 'invert(100%) brightness(100%)' }} 
             />
-          </div> */}
+          </div>
 
           {/* 왼쪽 화살표 클릭 시 MyInfo로 돌아오기 */}
-          {/* <div className={styles.styleArrow2} onClick={handleArrowLeftClick}>
+          <div className={styles.styleArrow2} onClick={handleArrowLeftClick}>
             <img 
               src={arrowLeft} 
               className={styles.arrowImg} 
               alt="Arrow" 
               style={{ filter: 'invert(100%) brightness(100%)' }} 
             />
-          </div> */}
+          </div>
 
-          {/* {isHistoryVisible && ( */}
-            <div className={styles.historyContainer}>
+          {isHistoryVisible && (
+            <div div className={styles.myInfoContainer}>
               <History />
             </div>
-          {/* )} */}
+          )}
         </div>
       </header>
 
