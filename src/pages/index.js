@@ -45,7 +45,7 @@ function Home() {
 
           {isMyInfoVisible && (
             <div className={styles.myInfoContainer}>
-              <History />
+              <MyInfo />
             </div>
           )}
 
@@ -70,7 +70,7 @@ function Home() {
           </div>
 
           {isHistoryVisible && (
-            <div div className={styles.myInfoContainer}>
+            <div className={styles.myInfoContainer2} style={{ width: '54.5rem',height:'33.5rem' }}>
               <History />
             </div>
           )}

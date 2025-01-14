@@ -1,3 +1,11 @@
+  .box2 {
+    padding-right: 10px;
+  }
+
+  .leftBox {
+    width: 15rem;
+  }
+
  .backgroundColor{
     width: 100%;
     height: auto;
@@ -5,17 +13,17 @@
   
   .profileContainer {
     overflow: hidden; 
-    float: left;
   }
 
   .profileContainer2 {
     position: relative;
     top: -2rem;
+    top: 5.5rem;
   }
 
   .profileContainer3 {
     position: relative;
-    top: -4rem;
+    top: 11.5rem;
   }
 
   profileContainer3 {
@@ -26,7 +34,8 @@
     
   .profileBackground {
     background-color: rgb(195, 232, 247);
-    width: 35rem;
+    width: 30rem;
+    
   }
   
   .headFont {
@@ -43,20 +52,53 @@
 
   .historyDateColor {
     color: darkgray;
-    text-align: right;
+    text-align: left;
+    margin-left: 20px;
   }
   
   .historyCompanyName {
     color:black;
     font-size: 12px;
+    padding-left: 6.5rem;
+    position: relative;
+    top: 1rem;
+  }
+
+  .historyCompanyName2 {
+    color:black;
+    font-size: 12px;
+    padding-left:1rem;
+    position: relative;
+    top: 1rem;
+  }
+  
+  .historyCompanyName3 {
+    color:black;
+    font-size: 12px;
+    padding-left:2rem;
+    position: relative;
+    top: 1rem;
   }
 
   .companyWork {
     text-align: left;
-    font-size: 10px;
-    width: 35rem;
+    font-size: 11px;
     margin-top: 2rem;
-    
+    margin-left: 2rem;
+  }
+
+  .companyWork2 {
+    text-align: left;
+    font-size: 11px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+
+  .companyWork3 {
+    text-align: left;
+    font-size: 11px;
+    margin-top: 3rem;
+    margin-left: 2rem;
   }
 
   .skillKeyword {
@@ -88,10 +130,9 @@
 
   .workDays3 {
     background-color: aqua;
-    font-size: 12px;
+    font-size: 10px;
     float: right;
-    position: absolute;
-    top: 10rem;
+    margin-right: 0.5rem;
   }
 
   .ulPosition {
@@ -103,3 +144,10 @@
     position: relative;
     top:-4rem;
   }
+
+  .divider {
+    width: 1px;
+    background-color: rgb(146, 140, 140);
+    height: 31.5rem;
+  }
+  
