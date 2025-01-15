@@ -1,0 +1,208 @@
+  .box2 {
+    padding-right: 10px;
+  }
+
+  .leftBox {
+    width: 15rem;
+  }
+
+ .backgroundColor{
+    width: 100%;
+    height: auto;
+  }
+  
+  .profileContainer {
+    overflow: hidden; 
+    position: relative;
+    top: -1.5rem;
+  }
+
+  .profileContainer2 {
+    position: relative;
+    top: 7rem;
+  }
+
+  .profileContainer3 {
+    position: relative;
+    top: 15rem;
+  }
+
+  profileContainer3 {
+    position: relative;
+    top: -4rem;
+  }
+  
+    
+  .profileBackground {
+    background-color: rgb(195, 232, 247);
+    width: 30rem;
+    
+  }
+  
+  .headFont {
+    text-align: left;
+    color: cornflowerblue;
+  }
+
+  .headFontwidth {
+    font-size: 10px;
+    color: black;
+    background-color: lightgrey;
+    border-radius: 10%;
+  }
+
+  .historyDateColor {
+    color: darkgray;
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .historyCompanyName {
+    color:black;
+    font-size: 12px;
+    padding-left: 6.5rem;
+    position: relative;
+    top: 1rem;
+  }
+
+  .historyCompanyName2 {
+    color:black;
+    font-size: 12px;
+    padding-left:1rem;
+    position: relative;
+    top: 1rem;
+  }
+  
+  .historyCompanyName3 {
+    color:black;
+    font-size: 12px;
+    padding-left:2rem;
+    position: relative;
+    top: 1rem;
+  }
+
+  .companyWork {
+    text-align: left;
+    font-size: 11px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .companyWork2 {
+    text-align: left;
+    font-size: 15px;
+    margin-top: 2rem;
+  }
+
+  .companyWork3 {
+    text-align: left;
+    font-size: 11px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+
+ 
+
+  .workDays {
+    background-color: aqua;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    left: 11rem;
+    top: 2rem;
+  }
+
+  .workDays2 {
+    background-color: aqua;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    left: 11rem;
+    top: 2rem;
+  }
+
+  .workDays3 {
+    background-color: aqua;
+    font-size: 10px;
+    float: right;
+    margin-right: 0.5rem;
+  }
+
+  .ulPosition {
+    position: relative;
+    font-size: 11px;
+    top:-2rem;
+  }
+
+  .ulPosition2 {
+    position: relative;
+    top:-1rem;
+    font-size: 15px;
+    width: 110%;
+  }
+
+  .divider {
+    width: 1px;
+    background-color: rgb(146, 140, 140);
+    height: 31.5rem;
+  }
+
+  .skillDateColor {
+    text-align: right;
+    padding-right: 2rem;
+    color: dimgray;
+  }
+
+  .javaImageStyle{
+    width: 15%;
+    position: relative;
+    top: -2rem;
+    margin-left: 1rem;
+  }
+
+  .pgsqlImageStyle {
+    width: 17%;
+    position: relative;
+    top: -1.5rem;
+    margin-left: 1rem;
+  }
+
+  .springImageStyle {
+    width: 20%;
+    position: relative;
+    top: -1.5rem;
+  }
+
+  .mysqlImageStyle {
+    width: 15%;
+    position: relative;
+    top: -1.5rem;
+    margin-left: 1rem;
+  }
+  
+  .trinoImageStyle {
+    width: 18%;
+    position: relative;
+    top: -1.5rem;
+    margin-left: 1rem;
+  }
+
+  .linuxImageStyle {
+    width: 15%;
+    position: relative;
+    top: -1.5rem;
+    margin-left: 1rem;
+  }
+
+  .hdfsImageStyle {
+    width: 22%;
+    position: relative;
+    top: -1.5rem;
+    margin-left: 1rem;
+  }
+
+  .hiveStyleImage {
+    width: 22%;
+    position: relative;
+    top: -1.5rem;
+  }

@@ -4,6 +4,7 @@ import styles from "./styles.module.css";
 import videoBackground from '../../static/img/background.mp4';
 import { MyInfo } from "./Info/myInfo";
 import { History } from "./Info/history";
+import { Skill } from "./Info/skill";
 import arrowRight from '../../static/img/blog/arrowRight.png';
 import arrowLeft from '../../static/img/blog/arrowLeft.png';
 
@@ -12,8 +13,7 @@ function Home() {
   const [isLoading, setIsLoading] = useState(true);
   const [headerHeight, setHeaderHeight] = useState(1536);
   const [bannerHeight, setBannerHeight] = useState(256);
-  const [isHistoryVisible, setIsHistoryVisible] = useState(false);  // History의 표시 여부
-  const [isMyInfoVisible, setIsMyInfoVisible] = useState(true);    // MyInfo의 표시 여부
+  const [currentStep, setCurrentStep] = useState(0);  // 0: MyInfo, 1: History, 2: Skill
 
   useEffect(() => {
     const tempHeaderHeight = Math.max(384, window.innerHeight);
@@ -23,16 +23,16 @@ function Home() {
     mainRef.current.hidden = false;
   }, []);
 
-  // 오른쪽 화살표 클릭 시: MyInfo 숨기고 History 보이기
   const handleArrowRightClick = () => {
-    setIsMyInfoVisible(false);
-    setIsHistoryVisible(true);
+    if (currentStep < 2) {
+      setCurrentStep(currentStep + 1); 
+    }
   };
 
-  // 왼쪽 화살표 클릭 시: History 숨기고 MyInfo 보이기
   const handleArrowLeftClick = () => {
-    setIsHistoryVisible(false);
-    setIsMyInfoVisible(true);
+    if (currentStep > 0) {
+      setCurrentStep(currentStep - 1);  
+    }
   };
 
   return (
@@ -43,13 +43,13 @@ function Home() {
             <video className={styles.videoStyle} src={videoBackground} autoPlay loop muted />
           </div>
 
-          {isMyInfoVisible && (
+          {currentStep === 0 && (
             <div className={styles.myInfoContainer}>
               <MyInfo />
             </div>
           )}
 
-          {/* 오른쪽 화살표 클릭 시 History로 이동 */}
+          {/* 오른쪽 화살표 클릭 시 다음 컴포넌트로 이동 */}
           <div className={styles.styleArrow} onClick={handleArrowRightClick}>
             <img 
               src={arrowRight} 
@@ -59,7 +59,7 @@ function Home() {
             />
           </div>
 
-          {/* 왼쪽 화살표 클릭 시 MyInfo로 돌아오기 */}
+          {/* 왼쪽 화살표 클릭 시 이전 컴포넌트로 이동 */}
           <div className={styles.styleArrow2} onClick={handleArrowLeftClick}>
             <img 
               src={arrowLeft} 
@@ -69,9 +69,15 @@ function Home() {
             />
           </div>
 
-          {isHistoryVisible && (
-            <div className={styles.myInfoContainer2} style={{ width: '54.5rem',height:'33.5rem' }}>
+          {currentStep === 1 && (
+            <div className={styles.myInfoContainer2} style={{ width: '54.5rem', height: '33.5rem' }}>
               <History />
+            </div>
+          )}
+
+          {currentStep === 2 && (
+            <div className={styles.myInfoContainer2} style={{ width: '54.5rem', height: '33.5rem' }}>
+              <Skill />
             </div>
           )}
         </div>
