@@ -85,20 +85,17 @@
     text-align: left;
     font-size: 11px;
     margin-top: 2rem;
-    margin-left: 2rem;
   }
 
   .companyWork2 {
     text-align: left;
     font-size: 15px;
-    margin-top: 2rem;
   }
 
   .companyWork3 {
     text-align: left;
     font-size: 11px;
     margin-top: 3rem;
-    margin-left: 2rem;
   }
 
  
@@ -154,27 +151,27 @@
   }
 
   .javaImageStyle{
-    width: 15%;
+    width: 13%;
     position: relative;
     top: -2rem;
     margin-left: 1rem;
   }
 
   .pgsqlImageStyle {
-    width: 17%;
+    width: 15%;
     position: relative;
     top: -1.5rem;
     margin-left: 1rem;
   }
 
   .springImageStyle {
-    width: 20%;
+    width: 18%;
     position: relative;
     top: -1.5rem;
   }
 
   .mysqlImageStyle {
-    width: 15%;
+    width: 13%;
     position: relative;
     top: -1.5rem;
     margin-left: 1rem;
@@ -188,21 +185,26 @@
   }
 
   .linuxImageStyle {
-    width: 15%;
+    width: 13%;
     position: relative;
     top: -1.5rem;
     margin-left: 1rem;
   }
 
   .hdfsImageStyle {
-    width: 22%;
+    width: 20%;
     position: relative;
     top: -1.5rem;
     margin-left: 1rem;
   }
 
   .hiveStyleImage {
-    width: 22%;
+    width: 20%;
     position: relative;
     top: -1.5rem;
+  }
+
+  .ulPositionStyle {
+    position: relative;
+    top: -1rem;
   }

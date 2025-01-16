@@ -13,17 +13,23 @@
   
   .profileContainer {
     overflow: hidden; 
+    position: relative;
+    left: 3rem;
   }
 
   .profileContainer2 {
     position: relative;
     top: -2rem;
-    top: 5.5rem;
+    top: 6.8rem;
+    position: relative;
+    left: 3rem;
   }
 
   .profileContainer3 {
     position: relative;
-    top: 11.5rem;
+    top: 14.5rem;
+    position: relative;
+    left: 3rem;
   }
 
   profileContainer3 {
@@ -84,22 +90,17 @@
     text-align: left;
     font-size: 11px;
     margin-top: 2rem;
-    margin-left: 2rem;
   }
 
   .companyWork2 {
     text-align: left;
     font-size: 11px;
     margin-top: 3rem;
-    margin-left: 2rem;
+    position: relative;
+    top: 2.5rem;
   }
 
-  .companyWork3 {
-    text-align: left;
-    font-size: 11px;
-    margin-top: 3rem;
-    margin-left: 2rem;
-  }
+
 
   .skillKeyword {
     display: block;  
@@ -150,4 +151,215 @@
     background-color: rgb(146, 140, 140);
     height: 31.5rem;
   }
+
+  
+  .javaImageStyle{
+    width: 15%;
+    position: relative;
+    top: -2rem;
+    margin-left: 1rem;
+  }
+
+  .pgsqlImageStyle {
+    width: 17%;
+    position: relative;
+    top: -1.5rem;
+    margin-left: 1rem;
+  }
+
+  .springImageStyle {
+    width: 20%;
+    position: relative;
+    top: -1.5rem;
+  }
+
+  .mysqlImageStyle {
+    width: 15%;
+    position: relative;
+    top: -1.5rem;
+    margin-left: 1rem;
+  }
+  
+  .trinoImageStyle {
+    width: 18%;
+    position: relative;
+    top: -1.5rem;
+    margin-left: 1rem;
+  }
+
+  .linuxImageStyle {
+    width: 15%;
+    position: relative;
+    top: -1.5rem;
+    margin-left: 1rem;
+  }
+
+  .hdfsImageStyle {
+    width: 22%;
+    position: relative;
+    top: -1.5rem;
+    margin-left: 1rem;
+  }
+
+  .hiveStyleImage {
+    width: 22%;
+    position: relative;
+    top: -1.5rem;
+  }
+
+
+  .companyWork3 {
+    text-align: left;
+    font-size: 11px;
+    margin-top: 6.5rem;
+  }
+
+  .skillKeyword1 {
+    width: 50px;
+    height: 50px;
+    background-color: #b7b7f0;
+    border-radius: 50%;
+    position: absolute;
+    top: 8.5rem;
+    background-image: url('../../static/img/blog/java.png');
+    background-size: 140%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+
+  
+  .skillKeyword2 {
+    width: 50px;
+    height: 50px;
+    background-color: #b7b7f0;
+    border-radius: 50%;
+    position: absolute;
+    top: 8.5rem;
+    left: 7rem;
+    background-image: url('../../static/img/blog/springBoot.png');
+    background-size: 140%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+
+  .skillKeyword3 {
+    width: 50px;
+    height: 50px;
+    background-color: #b7b7f0;
+    border-radius: 50%;
+    position: absolute;
+    top: 8.5rem;
+    left: 12rem;
+    background-image: url('../../static/img/blog/pgsql.png');
+    background-size: 140%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+
+  .skillKeyword4 {
+    width: 50px;
+    height: 50px;
+    background-color: #b7b7f0;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url('../../static/img/blog/spring.png');
+    background-size: 140%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+
+  .skillKeyword5 {
+    width: 50px;
+    height: 50px;
+    background-color: #b7b7f0;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url('../../static/img/blog/mariadb.png');
+    background-size: 140%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    left: 7rem;
+  }
+
+  .skillKeyword6 {
+    width: 50px;
+    height: 50px;
+    background-color: #b7b7f0;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url('../../static/img/blog/trino.png');
+    background-size: 140%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    left: 12rem;
+  }
+
+  .skillKeyword7 {
+    width: 50px;
+    height: 50px;
+    background-color: #b7b7f0;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url('../../static/img/blog/linux.png');
+    background-size: 140%;
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+
+  .skillKeyword8 {
+    width: 50px;
+    height: 50px;
+    background-color: #b7b7f0;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url('../../static/img/blog/hive.png');
+    background-size: 140%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    left: 22rem;
+  }
+
+  .skillKeyword9 {
+    width: 50px;
+    height: 50px;
+    background-color: #b7b7f0;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url('../../static/img/blog/hadoop.png');
+    background-size: 140%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    left: 27rem;
+  }
+
+  .skillSet {
+    font-family: 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+    font-weight: 900;
+    font-size: 13px;
+    position: relative;
+    top: 2rem;
+  }
+
+  .skillSet2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+    font-weight: 900;
+    font-size: 13px;
+    position: relative;
+  }
+
+  .skillSet3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+    font-weight: 900;
+    font-size: 13px;
+    position: relative;
+  }
+
+  .liPosition {
+    position: relative;
+    top: 2rem;
+  }
+
   

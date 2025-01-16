@@ -13,7 +13,7 @@ function Home() {
   const [isLoading, setIsLoading] = useState(true);
   const [headerHeight, setHeaderHeight] = useState(1536);
   const [bannerHeight, setBannerHeight] = useState(256);
-  const [currentStep, setCurrentStep] = useState(0);  // 0: MyInfo, 1: History, 2: Skill
+  const [currentStep, setCurrentStep] = useState(0); // 0: MyInfo, 1: History, 2: Skill
 
   useEffect(() => {
     const tempHeaderHeight = Math.max(384, window.innerHeight);
@@ -24,15 +24,11 @@ function Home() {
   }, []);
 
   const handleArrowRightClick = () => {
-    if (currentStep < 2) {
-      setCurrentStep(currentStep + 1); 
-    }
+    setCurrentStep((prevStep) => (prevStep + 1) % 3); // 순환
   };
 
   const handleArrowLeftClick = () => {
-    if (currentStep > 0) {
-      setCurrentStep(currentStep - 1);  
-    }
+    setCurrentStep((prevStep) => (prevStep - 1 + 3) % 3); // 순환
   };
 
   return (
@@ -55,7 +51,7 @@ function Home() {
               src={arrowRight} 
               className={styles.arrowImg} 
               alt="Arrow" 
-              style={{ filter: 'invert(100%) brightness(100%)' }} 
+              style={{ filter: 'invert(100%) brightness(100%)', marginLeft:'4rem' }} 
             />
           </div>
 
@@ -65,7 +61,7 @@ function Home() {
               src={arrowLeft} 
               className={styles.arrowImg} 
               alt="Arrow" 
-              style={{ filter: 'invert(100%) brightness(100%)' }} 
+              style={{ filter: 'invert(100%) brightness(100%)', marginLeft:'4rem' }} 
             />
           </div>
 

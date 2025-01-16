@@ -53,7 +53,7 @@ const Skill = () => {
                         <span >
                             <img src={hiveImage}  className={skill.hiveStyleImage} />
                         </span>
-                        <ul>
+                        <ul className={skill.ulPositionStyle}>
                             <li>기본적인 시스템 개발과 배포를 독립적으로 수행할 수 있습니다.</li>
                             <li>필요한 기술을 빠르게 학습하여 실무에 적용할 수 있습니다.</li>
                             <li>주어진 개발 도구와 기술 스택을 활용해 효율적으로 작업을 수행할 수 있습니다.</li>
@@ -70,7 +70,7 @@ const Skill = () => {
                         <span >
                             <img src={trinoImage}  className={skill.trinoImageStyle} />
                         </span>
-                        <ul >
+                        <ul className={skill.ulPositionStyle}>
                             <li>해당 스킬을 사용했을 때, 추가적인 교육 없이 업무를 신속하게 수행할 수 있습니다.</li>
                             <li>기본적인 문법과 개발 도구에 대한 숙련도가 있습니다.</li>
                         </ul>
@@ -88,7 +88,7 @@ const Skill = () => {
                             <img src={pgsqlImage}  className={skill.pgsqlImageStyle} />
                         </span>
                         
-                        <ul >
+                        <ul className={skill.ulPositionStyle}>
                             <li>해당 스킬을 사용했을 때, 추가적인 교육 없이 즉시 업무를 수행할 수 있습니다.</li>
                             <li>필요한 개발 환경을 스스로 설정할 수 있습니다.</li>
                         </ul>
