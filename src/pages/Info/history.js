@@ -43,6 +43,7 @@ const History = () => {
                             <span className={history.skillKeyword7}></span>
                             <span className={history.skillKeyword8}></span>
                             <span className={history.skillKeyword9}></span>
+                            <span className={history.skillKeyword10}></span>
                         </ul>
                     </div>
                     <div className={history.companyWork2}>

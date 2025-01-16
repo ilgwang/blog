@@ -220,7 +220,7 @@
     background-color: #b7b7f0;
     border-radius: 50%;
     position: absolute;
-    top: 8.5rem;
+    top: 8rem;
     background-image: url('../../static/img/blog/java.png');
     background-size: 140%;
     background-position: center; 
@@ -234,7 +234,7 @@
     background-color: #b7b7f0;
     border-radius: 50%;
     position: absolute;
-    top: 8.5rem;
+    top: 8rem;
     left: 7rem;
     background-image: url('../../static/img/blog/springBoot.png');
     background-size: 140%;
@@ -248,7 +248,7 @@
     background-color: #b7b7f0;
     border-radius: 50%;
     position: absolute;
-    top: 8.5rem;
+    top: 8rem;
     left: 12rem;
     background-image: url('../../static/img/blog/pgsql.png');
     background-size: 140%;
@@ -330,6 +330,19 @@
     background-position: center; 
     background-repeat: no-repeat;
     left: 27rem;
+  }
+
+  .skillKeyword10 {
+    width: 50px;
+    height: 50px;
+    background-color: #b7b7f0;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url('../../static/img/blog/nodejs.png');
+    background-size: 140%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    left: 32rem;
   }
 
   .skillSet {
