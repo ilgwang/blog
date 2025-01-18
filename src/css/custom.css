@@ -113,6 +113,13 @@ p {
   display: flex;
   flex-direction: row;
   background-color: white;
+  height: 39rem;
+}
+
+.myInfoContainer2{
+  display: grid;
+  flex-direction: row;
+  background-color: white;
 }
 
 .profileContainer {
@@ -154,7 +161,8 @@ p {
   display: flex;
   justify-content: flex-start;  
   font-size: 16px;
-  margin-bottom: 13px; 
+  margin-bottom: 25px;
+  color: black;
 }
 
 .infoItem span:first-child {
@@ -313,7 +321,7 @@ p {
 }
 
 .yearStyle1 {
-  right: 9rem;
+  right: 7rem;
   color: rgb(154, 154, 154);
   bottom: 5rem;
 }
@@ -347,7 +355,7 @@ p {
 .perpendicular2 {
   position: absolute;
   top: 7.5rem; 
-  left: 2rem; 
+  left: 1.5rem; 
   transform: translateX(-50%);
   width: 2px;
   height: 50px;
@@ -376,7 +384,7 @@ p {
   transform: translateX(-50%);
   width: 2px;
   height: 50px;
-  background-color: rgb(136, 136, 136);
+  background-color: rgb(116, 116, 116);
 }
 
 .perpendicular3 ul {
@@ -393,7 +401,7 @@ p {
 
 .yearStyle4 {
   position: absolute;
-  right: 7rem;
+  right: 8rem;
   color: rgb(85, 85, 85);
   padding-bottom: 1rem;
   bottom: 5rem;
@@ -405,7 +413,7 @@ p {
   transform: translateX(-50%);
   width: 2px;
   height: 50px;
-  background-color: rgb(136, 136, 136);
+  background-color: rgb(85, 85, 85);
 }
 
 .perpendicular4 ul {
@@ -421,11 +429,169 @@ p {
 }
 
 .yearStyle5 {
-  right: 3rem;
+  right: 7rem;
   color: rgb(34, 34, 34);
   padding-bottom: 1rem;
   bottom: 5rem;
 }
+.perpendicular5 {
+  position: absolute;
+  top: -2rem; 
+  left: 1.8rem; 
+  transform: translateX(-50%);
+  width: 2px;
+  height: 50px;
+  background-color: rgb(34, 34, 34);
+}
+
+.perpendicular5 ul {
+  font-size: 15px !important;
+  width: 16rem;
+  list-style-type: none; 
+  padding: 0;
+  margin: 0; 
+  position: relative;
+  top:-0.5rem;
+  right: -1rem;
+  text-align: left;
+}
+
+.profileImageStyle {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+}
+
+.profileImageStyle img {
+  width: 150px;
+  height: 150px; 
+  object-fit: cover;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.commentBubble {
+  position: absolute;
+  top: -2.5rem;
+  transform: translateX(-50%);
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  color:black;
+  left: 13rem;
+  width: 48%;
+  text-align: left;
+}
+.commentBubble::after {
+  content: '';
+	position: absolute;
+	bottom: 0;
+	left: 19%;
+	width: 0;
+	height: 0;
+	border: 30px solid transparent;
+	border-top-color: #f1f1f1;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -15px;
+	margin-bottom: -30px;
+}
+
+.commentBubble span {
+  background-color: rgb(196, 202, 255);
+}
+
+.footerHistory {
+  display: inline-flex
+}
+
+.shortInfo {
+  color: black;
+}
+
+span a {
+  color: black;
+}
+
+.myInfoContainer3{
+  display: grid;
+  flex-direction: row;
+  background-color: white;
+  color: black;
+}
+
+.historyLine2 {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.historyLine2::before {
+  content: '';
+  position: absolute;
+  top: 90%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: rgb(30, 68, 220);
+  z-index: 0; 
+  width: 90%;
+  margin-left: 2.5rem;
+}
+
+.skillStyle {
+  margin-left: 2.5rem;
+  margin-top: 2rem;
+}
+
+.skillImage img{
+  height: 5rem;
+  width: 5rem;
+  margin-left: 2.5rem;
+}
+
+.skillImage2 img{
+  height: 5rem;
+  width: 7rem;
+  margin-left: 2.5rem;
+}
+.skillBadges {
+  margin-left: 2.5rem;
+}
+.skillKeywords {
+  margin-left: 2.5rem;
+  margin-top: 3rem;
+}
+.keyword {
+  padding: 0.5rem 1rem; 
+  border: 2px solid #ccc; 
+  border-radius: 4px;   
+  background-color: #f1f1f1;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  margin-left: 2.5rem;
+}
+
+.keyword2 {
+  padding: 0.5rem 1rem; 
+  border: 2px solid #ccc; 
+  border-radius: 4px;   
+  background-color: #f1f1f1;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  margin-left: 2.5rem;
+}
+
+.keywordDiv {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+
 
 
 

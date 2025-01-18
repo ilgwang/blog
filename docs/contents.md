@@ -26,10 +26,6 @@ slug: "/"
                 <span>전화번호</span>
                 <span>010-3043-8987</span>
             </div>
-             <div class="infoItem">
-                <span>주소</span>
-                <span>서울 송파구 </span>
-            </div>
         </div>
         <div class="divider"></div>
         <div class="box">
@@ -42,7 +38,7 @@ slug: "/"
                     <div class="gitlabStyle">https://example.com</div>
                 </div>
             </div>
-            <div style={{ display: 'flex', alignItems: 'center', marginTop:'0.5rem' }} class="profileBackground">
+            <div style={{ display: 'flex', alignItems: 'center', marginTop:'1rem' }} class="profileBackground">
               <div class="githubImage">
                   ![Ceevee](../static/img/blog/docusaurus.png)
               </div>
@@ -51,7 +47,7 @@ slug: "/"
                   <div class="gitlabStyle">https://example.com</div>
               </div>
            </div>
-           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center', marginTop: '1rem' }}>
+           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center', marginTop: '4rem' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
               <div style={{ textAlign: 'right', position: 'relative' }}>
                 <div class="circle"></div>
@@ -90,7 +86,7 @@ slug: "/"
 </div>
 
 ### History
-<div class="myInfoContainer">
+<div class="myInfoContainer2">
     <div class="historyLine">
         <div class="yearStyle1">
             <div class="perpendicular">
@@ -102,7 +98,7 @@ slug: "/"
             <div class="perpendicular2">
                 <ul>
                     <li>동국대학교 경찰행정학과 졸업</li>
-                    <li> &nbsp;&nbsp;WEB 개발자 국비지원 과정 수료</li>
+                    <li>WEB 개발 국비지원 과정 수료</li>
                 </ul>
             </div>
             <span>2021</span>
@@ -125,16 +121,74 @@ slug: "/"
             <span>2023</span>
         </div>
         <div class="yearStyle5">
+            <div class="perpendicular5">
+                <ul>
+                    <li>1월 (주)넥스트코어 테크놀러지 퇴사</li>
+                    <li>2월 (주)아키스 입사 ~ </li>
+                </ul>
+            </div>
             <span>2024</span>
+        </div>
+    </div>
+    <div class="footerHistory">
+       <div class="profileImageStyle">
+            ![Ceevee](../static/img/blog/profileImage2.png)
+            <div class="commentBubble">
+                <h4>몸으로 익히가 마음으로 이해하는 <span>개발자 최일광</span>입니다.</h4>
+            </div>
+       </div>
+        <div class="shortInfo">
+           <div>
+                새로운 기술과 도전에 대한 드려움 없이, <br/>항상 배우고 성장하는 웹 개발자 로서.<br/>
+                다양한 기술 스택을 적극적으로 탐구하며, <br/>실무 경험을 통해 깊이 있는 지식을 쌓아가고 있습니다.
+           </div>
         </div>
     </div>
 </div>
 
-### Book Summaries
+### Skills
+<div class="myInfoContainer3">
+    <div class="historyLine2">
+        <h3 class="skillStyle">Skills</h3>
+    </div>
+    <div>
+        <div class="skillBadges">
+            <span><h3>Badges</h3></span>
+        </div>
+        <div>
+            <span class="skillImage"> ![Ceevee](../static/img/blog/java.png)</span>
+            <span class="skillImage2"> ![Ceevee](../static/img/blog/spring.png)</span>
+            <span class="skillImage"> ![Ceevee](../static/img/blog/springBoot.png)</span>
+            <span class="skillImage"> ![Ceevee](../static/img/blog/nodejs.png)</span>
+            <span class="skillImage2"> ![Ceevee](../static/img/blog/hadoop.png)</span>
+            <span class="skillImage2"> ![Ceevee](../static/img/blog/hive.png)</span>
+            <span class="skillImage"> ![Ceevee](../static/img/blog/trino.png)</span>
+            <span class="skillImage"> ![Ceevee](../static/img/blog/linux.png)</span>
+            <span class="skillImage"> ![Ceevee](../static/img/blog/mysql.png)</span>
+            <span class="skillImage"> ![Ceevee](../static/img/blog/mariadb.png)</span>
+        </div>
+        <div class="skillKeywords">
+            <span><h3>Keywords</h3> </span>
+        </div>
+         <div class="keywordDiv">
+            <span class="keyword">Java</span>
+            <span class="keyword">Spring</span>
+            <span class="keyword">Spring Boot</span>
+            <span class="keyword">NodeJs</span>
+            <span class="keyword">Hadoop</span>
+            <span class="keyword">Hive</span>
+        </div>
+         <div class="keywordDiv">
+            <span class="keyword2">Trino</span>
+            <span class="keyword2">Linux</span>
+            <span class="keyword2">MySqL</span>
+            <span class="keyword2">MariaDB</span>
+        </div>
+    </div>
+</div>
+<!-- ### Cloud and Networking -->
 
-### Cloud and Networking
-
-### Programming
+<!-- ### Programming
 
 <div class="contentTableContainer">
 
@@ -167,4 +221,4 @@ slug: "/"
 | 1   | [MongoDB](mongodb-setup)     | December 23, 2020 |
 | 2   | [NodeJS](nodejs-auto-reload) | December 23, 2020 |
 
-</div>
+</div> -->
