@@ -106,3 +106,333 @@ p {
     font-size: 1rem;
   }
 }
+
+/* myInfo.module.css */
+
+.myInfoContainer{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.profileContainer {
+  width: 181px; 
+  overflow: hidden;
+  background-repeat: no-repeat;
+
+}
+
+.box {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(4, 36, 36);
+  color: black;
+  background-color: white;
+}
+
+.divider {
+  width: 1px;
+  background-color: rgb(53, 12, 218);
+}
+
+.profileStyle {
+  width: 180px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: flex-start;  
+  font-size: 16px;
+  margin-bottom: 13px; 
+}
+
+.infoItem span:first-child {
+  width: 70px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.infoItem span:last-child {
+  margin-left: 10px;
+}
+
+.gitlabStyle {
+  text-align: left;
+  color: cornflowerblue;
+  font-weight: bold;
+}
+
+.githubImage {
+  width: 45px;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+.profileBackground {
+  background-color: rgb(195, 232, 247);
+  width: 35rem;
+}
+
+.styleContent {
+  margin-top: 1rem;
+  left: 3.4rem;
+  position: relative;
+}
+
+.styleContent1 {
+  margin-top: 1rem;
+  position: relative;
+  left: -1rem;
+}
+
+.styleContent2 {
+  margin-top: 8rem;
+  position: relative;
+  left: 1rem;
+}
+
+.styleContent3 {
+  margin-top: 8rem;
+  position: relative;
+  left: 0.9rem;
+  top: 0.1rem;
+}
+
+
+.circle {
+  width: 60px;
+  height: 60px;
+  background-color: #121c85;
+  border-radius: 50%;
+  position: absolute;
+  left: 11rem;
+  top: 4rem;
+  background-image: url('../../static/img/blog/github.png');
+  background-size: 110%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.circle1 {
+  width: 60px;
+  height: 60px;
+  background-color: #121c85;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -10px;
+  left: -5rem;
+  top: 4rem;
+  background-image: url('../../static/img/blog/plabfootball.png');
+  background-size: 80%;
+  background-position: center; 
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.circle2 {
+  width: 60px;
+  height: 60px;
+  background-color: #121c85;
+  border-radius: 50%;
+  position: absolute;
+  left: 11rem;
+  top: 6rem;
+  background-image: url('../../static/img/blog/docusaurus.png');
+  background-size: 80%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.circle3 {
+  width: 60px;
+  height: 60px;
+  background-color: #121c85;
+  border-radius: 50%;
+  position: absolute;
+  left: -3rem;
+  top: 6rem;
+  background-image: url('../../static/img/blog/notion.png');
+  background-size: 140%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.styleFont {
+  font-weight: bold;
+  color: #5865f2;
+  font-size: 1.3rem;
+}
+
+.fontStyleSize {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.iconLink {
+  text-decoration: none;
+}
+
+.historyLine {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.historyLine::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: rgb(30, 68, 220);
+  z-index: 0; 
+  width: 90%;
+  margin-left: 2.5rem;
+}
+
+.historyLine div {
+  position: relative;
+  display: inline-block;
+  margin: 0 20px;
+  z-index: 1; 
+  font-weight: 900;
+  margin-bottom: 3rem;
+  font-size: 25px;
+}
+
+.yearStyle1 {
+  right: 9rem;
+  color: rgb(154, 154, 154);
+  bottom: 5rem;
+}
+.spanYear{
+  position: relative;
+}
+.perpendicular {
+  position: absolute;
+  top: 7.8rem; 
+  left: 2rem; 
+  transform: translateX(-50%);
+  width: 2px;
+  height: 50px;
+  background-color: rgb(154, 154, 154);
+}
+.perpendicular span {
+  font-size: 15px !important;
+  display: ruby-text;
+  margin-bottom: 8rem;
+  margin-left: 1rem;
+  padding-bottom: 2rem;
+}
+
+
+.yearStyle2 {
+  right: 8rem;
+  color: rgb(136, 136, 136);
+  padding-bottom: 1rem;
+  bottom: 5rem;
+}
+.perpendicular2 {
+  position: absolute;
+  top: 7.5rem; 
+  left: 2rem; 
+  transform: translateX(-50%);
+  width: 2px;
+  height: 50px;
+  background-color: rgb(136, 136, 136);
+}
+.perpendicular2 ul {
+  font-size: 15px !important;
+  width: 16rem;
+  list-style-type: none; 
+  padding: 0;
+  margin: 0; 
+  position: relative;
+  top:-0.3rem;
+}
+
+.yearStyle3 {
+  right: 8rem;
+  color: rgb(116, 116, 116);
+  padding-bottom: 1rem;
+  bottom: 5rem;
+}
+.perpendicular3 {
+  position: absolute;
+  top: -4rem; 
+  left: 2rem; 
+  transform: translateX(-50%);
+  width: 2px;
+  height: 50px;
+  background-color: rgb(136, 136, 136);
+}
+
+.perpendicular3 ul {
+  font-size: 15px !important;
+  width: 16rem;
+  list-style-type: none; 
+  padding: 0;
+  margin: 0; 
+  position: relative;
+  top:-0.3rem;
+  right: -1rem;
+  text-align: left;
+}
+
+.yearStyle4 {
+  position: absolute;
+  right: 7rem;
+  color: rgb(85, 85, 85);
+  padding-bottom: 1rem;
+  bottom: 5rem;
+}
+.perpendicular4 {
+  position: absolute;
+  top: 7.5rem; 
+  left: 2rem; 
+  transform: translateX(-50%);
+  width: 2px;
+  height: 50px;
+  background-color: rgb(136, 136, 136);
+}
+
+.perpendicular4 ul {
+  font-size: 15px !important;
+  width: 16rem;
+  list-style-type: none; 
+  padding: 0;
+  margin: 0; 
+  position: relative;
+  top:-0.5rem;
+  right: -1rem;
+  text-align: left;
+}
+
+.yearStyle5 {
+  right: 3rem;
+  color: rgb(34, 34, 34);
+  padding-bottom: 1rem;
+  bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
