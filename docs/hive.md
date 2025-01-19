@@ -3,9 +3,9 @@ id: hive
 title: Apache Hive
 ---
 
-### hive 설치 및 셋팅
+## hive 설치 및 셋팅
 
-1. hive 3.1.3 다운로드
+### 1. hive 3.1.3 다운로드
 <div style={{marginLeft:'3.5rem'}}>
 ```bash
 wget https://archive.apache.org/dist/hive/hive-3.1.3/apache-hive-3.1.3-bin.tar.gz
