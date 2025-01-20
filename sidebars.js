@@ -4,10 +4,6 @@ module.exports = {
       type: "doc",
       id: "contents",
     },
-    // {
-    //   type: "doc",
-    //   id: "reading-list",
-    // },
     {
       type: "category",
       label: "BigData",
@@ -17,19 +13,36 @@ module.exports = {
           "trino",
           "trino-catalog"
       ],
+    },
+    {
+      type: "category",
+      label: "Linux",
+        items: [
+            "localhost-ssl",
+            "tomcat-443"
+        ],
+    },
+    {
+      type: "category",
+      label: "BaseX",
+        items: [
+            "rest-api",
+            "rest-tls"
+        ],
     }
+    // ,
     // {
     //   type: "category",
-    //   label: "Java (Spring)",
+    //   label: "BaseX",
     //   items: [
     //     {
     //       items: [
-    //           "SSL 생성 및 적용",
-    //           "root 이외의 계정으로 (80, 443) 포트 기동"
+    //           // "BaseX Rest API ( TLS 무시 )",
+    //           // "BaxeX TLS (Rest API)"
     //       ],
     //     },
     //   ],
-    // },
+    // }
     // {
     //   type: "category",
     //   label: "Centos 7",
