@@ -8,10 +8,10 @@ module.exports = {
       type: "category",   
       label: "Big Data",  
       items: [
-        'bigData/bigData-hadoop',      
-        'bigData/bigData-hive',          
-        'bigData/bigData-trino',       
-        'bigData/bigData-trino-catalog',
+        'bigData/hadoop',      
+        'bigData/hive',          
+        'bigData/trino',       
+        'bigData/trino-catalog',
       ],
     },
     {

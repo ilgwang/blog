@@ -1,5 +1,5 @@
 ---
-id: bigData-trino-catalog
+id: trino-catalog
 title: Trino Hive Catalog 연동
 ---
 ## Trino Hive Catalog 연동

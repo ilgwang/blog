@@ -1,5 +1,5 @@
 ---
-id: bigData-trino
+id: trino
 title: Trino
 ---
 

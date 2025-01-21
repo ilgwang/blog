@@ -1,5 +1,5 @@
 ---
-id: bigData-hadoop
+id: hadoop
 title: HDFS (Hadoop Distributed File System )
 ---
 

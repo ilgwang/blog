@@ -53,14 +53,14 @@ slug: "/"
                 <div class="circle"></div>
                 <div class="styleContent">
                   <div class="styleFont">꾸준한 학습</div>
-                  <div class="fontStyleSize">출근 전 학습</div>
+                  <div class="fontStyleSize">1일 1잔디</div>
                 </div>
               </div>
               <div style={{ textAlign: 'left', position: 'relative' }}>
                 <div class="circle1"></div>
                 <div class="styleContent1">
                   <div class="styleFont">꾸준한 운동</div>
-                  <div class="fontStyleSize">매주 1회 풋살 경기</div>
+                  <div class="fontStyleSize">주 1회 풋살 경기</div>
                 </div>
               </div>
             </div>
@@ -72,7 +72,7 @@ slug: "/"
                   <div class="fontStyleSize">테크 블로그 작성</div>
                 </div>
               </div>
-              <div style={{ textAlign: 'left', position: 'relative' }}>
+              <div style={{ textAlign: 'left', position: 'relative' ,left:'1rem'}}>
                 <div class="circle3"></div>
                 <div class="styleContent3">
                   <div class="styleFont">계획적 개발</div>
