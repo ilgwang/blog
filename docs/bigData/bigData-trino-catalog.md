@@ -1,7 +1,8 @@
 ---
-id: trino-catalog
+id: bigData-trino-catalog
 title: Trino Hive Catalog 연동
 ---
+## Trino Hive Catalog 연동
 
 ### 1. 카탈로그 폴더 및 파일 생성
 <ul style={{marginLeft:'3rem'}}>
@@ -61,7 +62,7 @@ title: Trino Hive Catalog 연동
     ./trino-cli-410.jar --server http:// {코디네이터 서버 IP} :18081
     ```
     </div>  
-    <li>![alt text](../static/img/blog/hive-catalog.png)</li>
+    <li>![alt text](../../static/img/blog/hive-catalog.png)</li>
     <li> schema 생성</li>
      <div style={{marginLeft:'-1rem'}}>
     ```
@@ -74,5 +75,5 @@ title: Trino Hive Catalog 연동
         show tables;
         ```
     </div> 
-    <li>![alt text](../static/img/blog/hive-table.png)</li>
+    <li>![alt text](../../static/img/blog/hive-table.png)</li>
 </ul>

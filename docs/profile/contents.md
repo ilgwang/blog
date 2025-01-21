@@ -8,7 +8,7 @@ slug: "/"
     <div class="myInfoContainer">
         <div class="box">
             <div class="profileContainer">
-                ![Ceevee](../static/img/blog/profile.jpg)
+                ![Ceevee](../../static/img/blog/profile.jpg)
             </div>
             <div class="infoItem">
                 <span>이름</span>
@@ -31,7 +31,7 @@ slug: "/"
         <div class="box">
             <div style={{ display: 'flex', alignItems: 'center' }} class="profileBackground">
                 <div class="githubImage">
-                    ![Ceevee](../static/img/blog/github.png)
+                    ![Ceevee](../../static/img/blog/github.png)
                 </div>
                 <div style={{ marginLeft: '50px' }}>
                     <div class="gitlabStyle">Github</div>
@@ -40,7 +40,7 @@ slug: "/"
             </div>
             <div style={{ display: 'flex', alignItems: 'center', marginTop:'1rem' }} class="profileBackground">
               <div class="githubImage">
-                  ![Ceevee](../static/img/blog/docusaurus.png)
+                  ![Ceevee](../../static/img/blog/docusaurus.png)
               </div>
               <div style={{ marginLeft: '50px' }} >
                   <div class="gitlabStyle">Blog</div>
@@ -53,7 +53,7 @@ slug: "/"
                 <div class="circle"></div>
                 <div class="styleContent">
                   <div class="styleFont">꾸준한 학습</div>
-                  <div class="fontStyleSize">1일 1잔디</div>
+                  <div class="fontStyleSize">출근 전 학습</div>
                 </div>
               </div>
               <div style={{ textAlign: 'left', position: 'relative' }}>
@@ -132,7 +132,7 @@ slug: "/"
     </div>
     <div class="footerHistory">
        <div class="profileImageStyle">
-            ![Ceevee](../static/img/blog/profileImage2.png)
+            ![Ceevee](../../static/img/blog/profileImage2.png)
             <div class="commentBubble">
                 <h4>몸으로 익히가 마음으로 이해하는 <span>개발자 최일광</span>입니다.</h4>
             </div>
@@ -156,16 +156,16 @@ slug: "/"
             <span><h3>Badges</h3></span>
         </div>
         <div>
-            <span class="skillImage"> ![Ceevee](../static/img/blog/java.png)</span>
-            <span class="skillImage2"> ![Ceevee](../static/img/blog/spring.png)</span>
-            <span class="skillImage"> ![Ceevee](../static/img/blog/springBoot.png)</span>
-            <span class="skillImage"> ![Ceevee](../static/img/blog/nodejs.png)</span>
-            <span class="skillImage2"> ![Ceevee](../static/img/blog/hadoop.png)</span>
-            <span class="skillImage2"> ![Ceevee](../static/img/blog/hive.png)</span>
-            <span class="skillImage"> ![Ceevee](../static/img/blog/trino.png)</span>
-            <span class="skillImage"> ![Ceevee](../static/img/blog/linux.png)</span>
-            <span class="skillImage"> ![Ceevee](../static/img/blog/mysql.png)</span>
-            <span class="skillImage"> ![Ceevee](../static/img/blog/mariadb.png)</span>
+            <span class="skillImage"> ![Ceevee](../../static/img/blog/java.png)</span>
+            <span class="skillImage2"> ![Ceevee](../../static/img/blog/spring.png)</span>
+            <span class="skillImage"> ![Ceevee](../../static/img/blog/springBoot.png)</span>
+            <span class="skillImage"> ![Ceevee](../../static/img/blog/nodejs.png)</span>
+            <span class="skillImage2"> ![Ceevee](../../static/img/blog/hadoop.png)</span>
+            <span class="skillImage2"> ![Ceevee](../../static/img/blog/hive.png)</span>
+            <span class="skillImage"> ![Ceevee](../../static/img/blog/trino.png)</span>
+            <span class="skillImage"> ![Ceevee](../../static/img/blog/linux.png)</span>
+            <span class="skillImage"> ![Ceevee](../../static/img/blog/mysql.png)</span>
+            <span class="skillImage"> ![Ceevee](../../static/img/blog/mariadb.png)</span>
         </div>
         <div class="skillKeywords">
             <span><h3>Keywords</h3> </span>

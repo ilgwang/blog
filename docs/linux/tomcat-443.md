@@ -2,6 +2,7 @@
 id: tomcat-443
 title: root 이외의 계정으로 1024 포트 기동
 ---
+## root 이외의 계정으로 1024 포트 기동
 
 ### 1. root 이외의 계정으로 java -version 접근시 에러 발생 
 <div style={{marginLeft:'1.5rem'}}>

@@ -1,8 +1,7 @@
 ---
-id: hadoop
+id: bigData-hadoop
 title: HDFS (Hadoop Distributed File System )
 ---
-
 
 
 ## hadoop 설치 및 셋팅
@@ -218,7 +217,7 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
 </ul>
 
 <div style={{marginLeft:'4.7rem'}}>
-![alt text](../static/img/blog/hadoopImage.png)
+![alt text](../../static/img/blog/hadoopImage.png)
 </div>
 
 ### 12. java 8 이상 사용 시 아래의 설정 추가

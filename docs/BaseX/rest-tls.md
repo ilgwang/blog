@@ -1,27 +1,23 @@
 ---
-id: rest-api
-title: Rest Api
+id: rest-tls
+title: Rest Api TLS 무시
 ---
-
+## Rest Api TLS 무시
 ### 1. Test Code
 <div style={{marginLeft:'-1rem'}}>
 ```bash
-import javax.net.ssl.*;
-import java.io.*;
-import java.security.*;
-import java.security.cert.*;
 import java.net.*;
 import java.util.Base64;
+import java.io.*;
+import javax.net.ssl.*;
 
-public class TestTLS {
+public class Test3 {
     public static void main(String[] args) throws Exception {
-        // JKS 경로 및 비밀번호 설정
-        String keystorePath = "path/to/your/keystore.jks"; // JKS 경로
-        String keystorePassword = "your_keystore_password"; // JKS 비밀번호
-        enableCertificateValidation(keystorePath, keystorePassword);
+        disableSSLCertificateChecking();
 
         URL url = new URL("https://{host}:8984/rest?query=collection('vdb_0/log4j2_local.xml')//property[@name='pattern']/text()");
-        HttpsURLConnection conn = (HttpsURLConnection) url.openConnection();
+
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
         conn.setRequestMethod("GET");
 
         String user = "admin";
@@ -32,40 +28,51 @@ public class TestTLS {
         int responseCode = conn.getResponseCode();
         System.out.println("HTTP response: " + responseCode);
 
-        if (responseCode == HttpURLConnection.HTTP_OK) {
+        if (responseCode == HttpURLConnection.HTTP_OK) { // Check for successful response
             InputStreamReader in = new InputStreamReader(conn.getInputStream());
             BufferedReader reader = new BufferedReader(in);
             String inputLine;
             StringBuilder response = new StringBuilder();
+
             while ((inputLine = reader.readLine()) != null) {
                 response.append(inputLine);
             }
+
             reader.close();
-            System.out.println("Response: " + response.toString());
+            conn.disconnect();
+
+            System.out.println("XQuery Response: ");
+            System.out.println(response.toString());
         } else {
             System.out.println("Failed to get response");
+            conn.disconnect();
         }
-        conn.disconnect();
     }
 
-    private static void enableCertificateValidation(String keystorePath, String keystorePassword) {
+    // Disable SSL verification
+    private static void disableSSLCertificateChecking() {
         try {
-            KeyStore keyStore = KeyStore.getInstance("JKS");
-            FileInputStream fis = new FileInputStream(keystorePath);
-            keyStore.load(fis, keystorePassword.toCharArray());
-            fis.close();
+            TrustManager[] trustAllCertificates = new TrustManager[]{
+                new X509TrustManager() {
+                    public java.security.cert.X509Certificate[] getAcceptedIssuers() {
+                        return null;
+                    }
 
-            TrustManagerFactory trustManagerFactory = TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm());
-            trustManagerFactory.init(keyStore);
+                    public void checkClientTrusted(
+                            java.security.cert.X509Certificate[] certs, String authType) {
+                    }
+
+                    public void checkServerTrusted(
+                            java.security.cert.X509Certificate[] certs, String authType) {
+                    }
+                }
+            };
 
             SSLContext sc = SSLContext.getInstance("TLS");
-            sc.init(null, trustManagerFactory.getTrustManagers(), new SecureRandom());
+            sc.init(null, trustAllCertificates, new java.security.SecureRandom());
             HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
 
-            HttpsURLConnection.setDefaultHostnameVerifier((hostname, session) -> {
-                return hostname.equals(session.getPeerHost());
-            });
-
+            HttpsURLConnection.setDefaultHostnameVerifier((hostname, session) -> true);
         } catch (Exception e) {
             e.printStackTrace();
         }

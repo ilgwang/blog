@@ -1,6 +1,10 @@
 /* stylelint-disable docusaurus/copyright-header */
 
 
+header h1 {
+  display: none;
+}
+
 /* 배경 이미지 */
 .backgroundImage {
   width: 100%;

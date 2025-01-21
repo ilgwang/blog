@@ -1,5 +1,5 @@
 ---
-id: trino
+id: bigData-trino
 title: Trino
 ---
 
@@ -224,7 +224,7 @@ chown -R hadoop:hadoop trino-410
 
 ### 11 결과 확인
 <div style={{marginLeft:'3.5rem'}}>
-    ![alt text](../static/img/blog/trinoResult.png)
+    ![alt text](../../static/img/blog/trinoResult.png)
 </div>
 
 

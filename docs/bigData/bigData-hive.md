@@ -1,5 +1,5 @@
 ---
-id: hive
+id: bigData-hive
 title: Apache Hive
 ---
 

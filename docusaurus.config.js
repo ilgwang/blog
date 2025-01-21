@@ -66,7 +66,7 @@ module.exports = {
         // { to: "blog/", label: "Blog", position: "left" },
         {
           to: "docs/",
-          activeBasePath: "docs",
+          activeBasePath: "docs/",
           label: "Blog",
           position: "left",
         },
@@ -86,7 +86,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           disableVersioning: false,
-          editCurrentVersion: false,
+          // editCurrentVersion: false,
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
