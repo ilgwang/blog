@@ -58,7 +58,7 @@ const MyInfo = () => {
                 <div className={myInfo.circle}></div>
                 <div className={myInfo.styleContent}>
                   <div className={myInfo.styleFont}>꾸준한 학습</div>
-                  <div className={myInfo.fontStyleSize}>1일 1잔디</div>
+                  <div className={myInfo.fontStyleSize}>매일 새벽 출근전 학습</div>
                 </div>
               </div>
 
@@ -67,7 +67,7 @@ const MyInfo = () => {
                 <div className={myInfo.circle1}></div>
                 <div className={myInfo.styleContent1}>
                   <div className={myInfo.styleFont}>꾸준한 운동</div>
-                  <div className={myInfo.fontStyleSize}>매주 1회 풋살 경기</div>
+                  <div className={myInfo.fontStyleSize}>매일 아침 출근 전 운동</div>
                 </div>
               </div>
             </div>

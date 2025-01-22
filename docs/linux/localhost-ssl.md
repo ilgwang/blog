@@ -6,8 +6,19 @@ title: localhost ssl 생성
 ## Tomcat localhost ssl 생성 및 적용
 
 
-### 1. /etc/pki/tls/certs 경로로 이동
-### 2. keytool -genkey -alias tomcat -keyalg RSA -keystore /etc/pki/tls/certs/인증서명.jks 
+### 1. jks 파일 생성 경로로 이동
+<div style={{marginLeft:'1.5rem'}}>
+```bash
+etc/pki/tls/certs
+```
+</div>
+### 2. jks 파일 생성
+<div style={{marginLeft:'1.5rem'}}>
+```bash
+keytool -genkey -alias tomcat -keyalg RSA -keystore /etc/pki/tls/certs/인증서명.jks
+```
+</div>
+
 ### 3. server.xml 설정 추가
 <div style={{marginLeft:'1.5rem'}}>
 ```bash

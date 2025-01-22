@@ -300,7 +300,7 @@ p {
 .historyLine::before {
   content: '';
   position: absolute;
-  top: 50%;
+  top: 10rem;
   left: 0;
   right: 0;
   height: 2px;
@@ -591,14 +591,251 @@ span a {
   margin-top: 2rem;
 }
 
+/* Work Experience */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.headFont {
+  text-align: left;
+  color: cornflowerblue;
+}
+.headFontwidth {
+  font-size: 10px;
+  color: black;
+  background-color: lightgrey;
+  border-radius: 10%;
+}
+
+.profileContainer2 {
+  overflow: hidden; 
+  position: relative;
+  left: 3rem;
+}
+.historyDateColor {
+  color: darkgray;
+  text-align: left;
+  margin-left: 20px;
+}
+.profileContainer3 {
+  position: relative;
+  top: -2rem;
+  top: 9rem;
+  position: relative;
+  left: 3rem;
+}
+.profileContainer4 {
+  position: relative;
+  top: 19.2rem;
+  position: relative;
+  left: 3rem;
+}
+
+.myInfoContainer4{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 39rem;
+}
+
+.divider2 {
+  width: 1.5px;
+  background-color: rgb(53, 12, 218);
+}
+.companyWork {
+  text-align: left;
+  font-size: 11px;
+  margin-top: 2rem;
+  color: black;
+}
+.skillSet3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: cornflowerblue;
+  font-weight: 900;
+  font-size: 13px;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.skillKeyword7 {
+  width: 50px;
+  height: 50px;
+  background-color: #b7b7f0;
+  border-radius: 50%;
+  position: absolute;
+  background-image: url('../../static/img/blog/linux.png');
+  background-size: 140%;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.skillKeyword8 {
+  width: 50px;
+  height: 50px;
+  background-color: #b7b7f0;
+  border-radius: 50%;
+  position: absolute;
+  background-image: url('../../static/img/blog/hive.png');
+  background-size: 140%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  left: 40rem;
+}
+
+.skillKeyword9 {
+  width: 50px;
+  height: 50px;
+  background-color: #b7b7f0;
+  border-radius: 50%;
+  position: absolute;
+  background-image: url('../../static/img/blog/hadoop.png');
+  background-size: 140%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  left: 45rem;
+}
 
 
+.skillKeyword10 {
+  width: 50px;
+  height: 50px;
+  background-color: #b7b7f0;
+  border-radius: 50%;
+  position: absolute;
+  background-image: url('../../static/img/blog/nodejs.png');
+  background-size: 140%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  left: 50rem;
+}
 
 
+.companyWork2 {
+  text-align: left;
+  font-size: 15px;
+  color: black;
+}
+
+.ulPosition {
+  position: relative;
+  top:3rem;
+  font-size: 11px;
+}
+
+.skillSet2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: cornflowerblue;
+  font-weight: 900;
+  font-size: 13px;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.skillKeyword4 {
+  width: 50px;
+  height: 50px;
+  background-color: #b7b7f0;
+  border-radius: 50%;
+  position: absolute;
+  background-image: url('../../static/img/blog/spring.png');
+  background-size: 140%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.skillKeyword5 {
+  width: 50px;
+  height: 50px;
+  background-color: #b7b7f0;
+  border-radius: 50%;
+  position: absolute;
+  background-image: url('../../static/img/blog/mariadb.png');
+  background-size: 140%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  left: 7rem;
+}
+
+.skillKeyword6 {
+  width: 50px;
+  height: 50px;
+  background-color: #b7b7f0;
+  border-radius: 50%;
+  position: absolute;
+  background-image: url('../../static/img/blog/trino.png');
+  background-size: 140%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  left: 12rem;
+}
+
+.companyWork3 {
+  text-align: left;
+  font-size: 11px;
+  margin-top: 7rem;
+}
+
+.ulPosition2 {
+  position: relative;
+  top:-1rem;
+  font-size: 11px;
+  width: 110%;
+  color: black;
+}
+
+.liPosition {
+  position: relative;
+  top: 2rem;
+}
+
+.skillSet4 {
+  font-family: 'Times New Roman', Times, serif;
+  color: cornflowerblue;
+  font-weight: 900;
+  font-size: 13px;
+  position: relative;
+  top: 2rem;
+}
 
 
+.skillKeyword1 {
+  width: 50px;
+  height: 50px;
+  background-color: #b7b7f0;
+  border-radius: 50%;
+  position: absolute;
+  top: 9.5rem;
+  background-image: url('../../static/img/blog/java.png');
+  background-size: 140%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
 
 
+.skillKeyword2 {
+  width: 50px;
+  height: 50px;
+  background-color: #b7b7f0;
+  border-radius: 50%;
+  position: absolute;
+  top: 9.5rem;
+  left: 7rem;
+  background-image: url('../../static/img/blog/springBoot.png');
+  background-size: 140%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
 
-
-
+.skillKeyword3 {
+  width: 50px;
+  height: 50px;
+  background-color: #b7b7f0;
+  border-radius: 50%;
+  position: absolute;
+  top: 9.5rem;
+  left: 12rem;
+  background-image: url('../../static/img/blog/pgsql.png');
+  background-size: 140%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}

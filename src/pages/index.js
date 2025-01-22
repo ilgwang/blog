@@ -39,13 +39,12 @@ function Home() {
             <video className={styles.videoStyle} src={videoBackground} autoPlay loop muted />
           </div>
 
-          {currentStep === 0 && (
+          {/* {currentStep === 0 && (
             <div className={styles.myInfoContainer}>
               <MyInfo />
             </div>
           )}
 
-          {/* 오른쪽 화살표 클릭 시 다음 컴포넌트로 이동 */}
           <div className={styles.styleArrow} onClick={handleArrowRightClick}>
             <img 
               src={arrowRight} 
@@ -55,7 +54,6 @@ function Home() {
             />
           </div>
 
-          {/* 왼쪽 화살표 클릭 시 이전 컴포넌트로 이동 */}
           <div className={styles.styleArrow2} onClick={handleArrowLeftClick}>
             <img 
               src={arrowLeft} 
@@ -75,7 +73,8 @@ function Home() {
             <div className={styles.myInfoContainer2} style={{ width: '54.5rem', height: '33.5rem' }}>
               <Skill />
             </div>
-          )}
+          )} */}
+          
         </div>
       </header>
 
