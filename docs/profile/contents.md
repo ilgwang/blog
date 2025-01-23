@@ -23,15 +23,23 @@ slug: "/"
                 <span>ig95@dgu.ac.kr</span>
             </div>
             <div class="infoItem">
-                <span>전화번호</span>
+                <span>핸드폰</span>
                 <span>010-3043-8987</span>
+            </div>
+             <div class="infoItem">
+                <span>학교</span>
+                <span>동국대학교</span>
+            </div>
+            <div class="infoItem">
+                <span>학과</span>
+                <span>경찰행정학과</span>
             </div>
         </div>
         <div class="divider"></div>
         <div class="box">
             <div style={{ display: 'flex', alignItems: 'center' }} class="profileBackground">
                 <div class="githubImage">
-                    ![Ceevee](../../static/img/blog/github.png)
+                    ![Ceevee](../../static/img/blog/githubImage.png)
                 </div>
                 <div style={{ marginLeft: '50px' }}>
                     <div class="gitlabStyle">Github</div>
@@ -44,7 +52,7 @@ slug: "/"
               </div>
               <div style={{ marginLeft: '50px' }} >
                   <div class="gitlabStyle">Blog</div>
-                  <div class="gitlabStyle">https://example.com</div>
+                  <div class="gitlabStyle" >https://example.com</div>
               </div>
            </div>
            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center', marginTop: '4rem' }}>

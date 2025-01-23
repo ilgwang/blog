@@ -135,10 +135,12 @@ p {
   background-color: rgb(4, 36, 36);
   color: black;
   background-color: white;
+  position: relative;
+  text-align: center;
 }
 
 .divider {
-  width: 1px;
+  width: 1.5px;
   background-color: rgb(53, 12, 218);
 }
 
@@ -161,8 +163,9 @@ p {
   display: flex;
   justify-content: flex-start;  
   font-size: 16px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   color: black;
+  font-weight: 600;
 }
 
 .infoItem span:first-child {
@@ -177,18 +180,23 @@ p {
 
 .gitlabStyle {
   text-align: left;
-  color: cornflowerblue;
+  color: #FFFFFF !important;
   font-weight: bold;
+}
+.gitlabStyle a {
+  color: #FFFFFF;
 }
 
 .githubImage {
   width: 45px;
   margin-left: 1rem;
   margin-top: 0.3rem;
+  position: relative;
+  top: 0.8rem;
 }
 
 .profileBackground {
-  background-color: rgb(195, 232, 247);
+  background-color: rgb(51, 112, 234);
   width: 35rem;
 }
 
