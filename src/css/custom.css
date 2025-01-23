@@ -139,9 +139,31 @@ p {
   text-align: center;
 }
 
+.box2 {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(4, 36, 36);
+  color: black;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.box3 {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(4, 36, 36);
+  color: black;
+  background-color: white;
+  position: relative;
+  text-align: center;
+}
+
 .divider {
   width: 1.5px;
   background-color: rgb(53, 12, 218);
+  padding-left: 0.3rem;
 }
 
 .profileStyle {
@@ -197,12 +219,10 @@ p {
 
 .profileBackground {
   background-color: rgb(51, 112, 234);
-  width: 35rem;
+  width: auto;
 }
 
 .styleContent {
-  margin-top: 1rem;
-  left: 3.4rem;
   position: relative;
 }
 
@@ -231,13 +251,13 @@ p {
   height: 60px;
   background-color: #121c85;
   border-radius: 50%;
-  position: absolute;
-  left: 11rem;
-  top: 4rem;
-  background-image: url('../../static/img/blog/github.png');
-  background-size: 110%;
-  background-position: center; 
-  background-repeat: no-repeat; 
+  margin-top: 1rem;
+  position: relative;
+  left: 8rem;
+  top: 5rem;
+}
+.circle img {
+  padding-top: 4px;
 }
 
 .circle1 {
@@ -288,11 +308,17 @@ p {
   font-weight: bold;
   color: #5865f2;
   font-size: 1.3rem;
+  position: relative;
+  left: -6rem;
+  top: 3.5rem;
 }
 
 .fontStyleSize {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
+  position: relative;
+  left: -5rem;
+  top: 3.5rem;
 }
 
 .iconLink {
@@ -303,6 +329,7 @@ p {
   position: relative;
   width: 100%;
   text-align: center;
+  padding-top: 0.5rem;
 }
 
 .historyLine::before {
@@ -316,6 +343,7 @@ p {
   z-index: 0; 
   width: 90%;
   margin-left: 2.5rem;
+  padding-top: 0.2rem;
 }
 
 .historyLine div {
@@ -549,6 +577,8 @@ span a {
   z-index: 0; 
   width: 90%;
   margin-left: 2.5rem;
+  padding-top: 0.2rem;
+
 }
 
 .skillStyle {
@@ -649,12 +679,19 @@ span a {
 .divider2 {
   width: 1.5px;
   background-color: rgb(53, 12, 218);
+  padding-left: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 3rem;
+  padding-left: 0.3rem;
 }
 .companyWork {
   text-align: left;
   font-size: 11px;
-  margin-top: 2rem;
+  margin-top: 4rem;
   color: black;
+}
+.skillPosition{
+  width: 100%;
 }
 .skillSet3 {
   font-family: 'Times New Roman', Times, serif;
@@ -687,7 +724,7 @@ span a {
   background-size: 140%;
   background-position: center; 
   background-repeat: no-repeat;
-  left: 40rem;
+  margin-left: 2rem;
 }
 
 .skillKeyword9 {
@@ -700,7 +737,7 @@ span a {
   background-size: 140%;
   background-position: center; 
   background-repeat: no-repeat;
-  left: 45rem;
+  margin-left: 10rem;
 }
 
 
@@ -714,7 +751,7 @@ span a {
   background-size: 140%;
   background-position: center; 
   background-repeat: no-repeat;
-  left: 50rem;
+  margin-left: 15rem;
 }
 
 

@@ -36,7 +36,7 @@ slug: "/"
             </div>
         </div>
         <div class="divider"></div>
-        <div class="box">
+        <div class="box2">
             <div style={{ display: 'flex', alignItems: 'center' }} class="profileBackground">
                 <div class="githubImage">
                     ![Ceevee](../../static/img/blog/githubImage.png)
@@ -55,41 +55,50 @@ slug: "/"
                   <div class="gitlabStyle" >https://example.com</div>
               </div>
            </div>
-           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center', marginTop: '4rem' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-              <div style={{ textAlign: 'right', position: 'relative' }}>
-                <div class="circle"></div>
+            <!-- <div >
                 <div class="styleContent">
-                  <div class="styleFont">꾸준한 학습</div>
-                  <div class="fontStyleSize">1일 1잔디</div>
+                    <div class="circle">
+                        ![Ceevee](../../static/img/blog/github.png)
+                    </div>
+                    <div class="styleFont">꾸준한 학습</div>
+                    <div class="fontStyleSize">1일 1잔디</div>
                 </div>
+            </div> -->
+        </div>
+
+           <!-- <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center', marginTop: '4rem' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+                    <div style={{ textAlign: 'right', position: 'relative' }}>
+                        <div class="circle"></div>
+                        <div class="styleContent">
+                        <div class="styleFont">꾸준한 학습</div>
+                        <div class="fontStyleSize">1일 1잔디</div>
+                    </div>
               </div>
               <div style={{ textAlign: 'left', position: 'relative' }}>
-                <div class="circle1"></div>
-                <div class="styleContent1">
-                  <div class="styleFont">꾸준한 운동</div>
-                  <div class="fontStyleSize">주 1회 풋살 경기</div>
-                </div>
+                    <div class="circle1"></div>
+                    <div class="styleContent1">
+                        <div class="styleFont">꾸준한 운동</div>
+                        <div class="fontStyleSize">주 1회 풋살 경기</div>
+                    </div>
               </div>
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-              <div style={{ textAlign: 'right', position: 'relative' }}>
-                <div class="circle2"></div>
-                <div class="styleContent2">
-                  <div class="styleFont">꾸준한 기록</div>
-                  <div class="fontStyleSize">테크 블로그 작성</div>
+                <div style={{ textAlign: 'right', position: 'relative' }}>
+                    <div class="circle2"></div>
+                    <div class="styleContent2">
+                        <div class="styleFont">꾸준한 기록</div>
+                        <div class="fontStyleSize">테크 블로그 작성</div>
+                    </div>
                 </div>
-              </div>
-              <div style={{ textAlign: 'left', position: 'relative' ,left:'1rem'}}>
-                <div class="circle3"></div>
-                <div class="styleContent3">
-                  <div class="styleFont">계획적 개발</div>
-                  <div class="fontStyleSize">노션을 통한 일정 관리</div>
+                <div style={{ textAlign: 'left', position: 'relative' ,left:'1rem'}}>
+                    <div class="circle3"></div>
+                    <div class="styleContent3">
+                        <div class="styleFont">계획적 개발</div>
+                        <div class="fontStyleSize">노션을 통한 일정 관리</div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
+            </div> -->
     </div>
 </div>
 
@@ -157,8 +166,8 @@ slug: "/"
 ### Work Experience
 <div>
     <div class="myInfoContainer4">
-        <div style={{ width: '13.5rem'}}>
-            <div class="box2">
+        <div >
+            <div class="box3">
                 <h4 class="headFont">EXPERIENCE <span class="headFontwidth">총 3년 1개월</span></h4>
             </div>
             <div class="profileContainer2">
@@ -172,7 +181,7 @@ slug: "/"
             </div>
         </div>
          <div class="divider2"></div>
-         <div style={{ width: '35rem',height: '25rem'}} >
+         <div >
             <div>
                 <div class="companyWork" >
                     <ul class="skillPosition">
