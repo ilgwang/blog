@@ -157,7 +157,7 @@ slug: "/"
         <div class="shortInfo">
            <div>
                 새로운 기술과 도전에 대한 드려움 없이, <br/>항상 배우고 성장하는 웹 개발자 로서.<br/>
-                다양한 기술 스택을 적극적으로 탐구하며, <br/>실무 경험을 통해 깊이 있는 지식을 쌓아가고 있습니다.
+                다양한 기술 스택을 적극적으로 탐구하며, <br/>실무 경험을 통해 다양한 기술들을 익히고 있습니다.
            </div>
         </div>
     </div>
@@ -171,7 +171,7 @@ slug: "/"
                 <h4 class="headFont">EXPERIENCE <span class="headFontwidth">총 3년 1개월</span></h4>
             </div>
             <div class="profileContainer2">
-                <h5 class="historyDateColor">2024.02 ~ </h5>
+                <h5 class="historyDateColo2">2024.02 ~ </h5>
             </div>
             <div class="profileContainer3">
                 <h5 class="historyDateColor">2023.06 ~ 2024.01 </h5>

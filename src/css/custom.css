@@ -606,22 +606,24 @@ span a {
 }
 .keyword {
   padding: 0.5rem 1rem; 
-  border: 2px solid #ccc; 
+  border: 2px solid #1359e5; 
   border-radius: 4px;   
-  background-color: #f1f1f1;
+  background-color: #1359e5;
   font-size: 1rem;
   margin-bottom: 3rem;
   margin-left: 2.5rem;
+  color: #FFFFFF;
 }
 
 .keyword2 {
   padding: 0.5rem 1rem; 
-  border: 2px solid #ccc; 
+  border: 2px solid #1359e5; 
   border-radius: 4px;   
-  background-color: #f1f1f1;
+  background-color: #1359e5;
   font-size: 1rem;
   margin-bottom: 3rem;
   margin-left: 2.5rem;
+  color: #FFFFFF;
 }
 
 .keywordDiv {
@@ -636,12 +638,12 @@ span a {
 }
 .headFont {
   text-align: left;
-  color: cornflowerblue;
+  color: #1359e5;
 }
 .headFontwidth {
   font-size: 10px;
-  color: black;
-  background-color: lightgrey;
+  color: #FFFFFF;
+  background-color: rgb(84, 175, 245);
   border-radius: 10%;
 }
 
@@ -652,6 +654,11 @@ span a {
 }
 .historyDateColor {
   color: darkgray;
+  text-align: left;
+  margin-left: 20px;
+}
+.historyDateColo2 {
+  color: rgb(9, 9, 9);
   text-align: left;
   margin-left: 20px;
 }
@@ -724,7 +731,7 @@ span a {
   background-size: 140%;
   background-position: center; 
   background-repeat: no-repeat;
-  margin-left: 2rem;
+  margin-left: 5rem;
 }
 
 .skillKeyword9 {
