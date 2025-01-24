@@ -55,51 +55,49 @@ slug: "/"
                   <div class="gitlabStyle" >https://example.com</div>
               </div>
            </div>
-            <!-- <div >
-                <div class="styleContent">
+            <div class="row row2">
+                <div class="col bg-primary text-white text-center p-3 rounded ">
+                    <div class="circle">
+                        ![Ceevee](../../static/img/blog/book_icon.png)
+                    </div>
+                    <div class="textStyle1">
+                        <div class="circleFontStyle1">꾸준한 학습</div>
+                        <div class="circleFontStyle2">스터디 / 프로젝트</div>
+                    </div>
+                </div>
+                 <div class="col bg-primary text-white text-center p-3 rounded">
+                    <div class="circle2">
+                        ![Ceevee](../../static/img/blog/github.png)
+                    </div>
+                    <div class="textStyle2">
+                        <div class="circleFontStyle3">꾸준한 운동</div>
+                        <div class="circleFontStyle4">운동 / 풋살</div>
+                    </div>
+                </div>
+            </div>
+             <div class="row row3">
+                <div class="col bg-primary text-white text-center p-3 rounded ">
                     <div class="circle">
                         ![Ceevee](../../static/img/blog/github.png)
                     </div>
-                    <div class="styleFont">꾸준한 학습</div>
-                    <div class="fontStyleSize">1일 1잔디</div>
+                    <div class="textStyle1" style={{bottom:'4rem'}}>
+                        <div class="circleFontStyle1">꾸준한 기록</div>
+                        <div class="circleFontStyle2">Git / Blog</div>
+                    </div>
                 </div>
-            </div> -->
-        </div>
-
-           <!-- <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center', marginTop: '4rem' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-                    <div style={{ textAlign: 'right', position: 'relative' }}>
-                        <div class="circle"></div>
-                        <div class="styleContent">
-                        <div class="styleFont">꾸준한 학습</div>
-                        <div class="fontStyleSize">1일 1잔디</div>
+                 <div class="col bg-primary text-white text-center p-3 rounded">
+                    <div class="circle2">
+                        ![Ceevee](../../static/img/blog/github.png)
                     </div>
-              </div>
-              <div style={{ textAlign: 'left', position: 'relative' }}>
-                    <div class="circle1"></div>
-                    <div class="styleContent1">
-                        <div class="styleFont">꾸준한 운동</div>
-                        <div class="fontStyleSize">주 1회 풋살 경기</div>
+                    <div class="textStyle2" style={{bottom:'4rem'}}>
+                        <div class="circleFontStyle3">꾸준한 실천</div>
+                        <div class="circleFontStyle4">Miracle / 모닝</div>
                     </div>
-              </div>
+                </div>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-                <div style={{ textAlign: 'right', position: 'relative' }}>
-                    <div class="circle2"></div>
-                    <div class="styleContent2">
-                        <div class="styleFont">꾸준한 기록</div>
-                        <div class="fontStyleSize">테크 블로그 작성</div>
-                    </div>
-                </div>
-                <div style={{ textAlign: 'left', position: 'relative' ,left:'1rem'}}>
-                    <div class="circle3"></div>
-                    <div class="styleContent3">
-                        <div class="styleFont">계획적 개발</div>
-                        <div class="fontStyleSize">노션을 통한 일정 관리</div>
-                    </div>
-                </div>
-            </div> -->
+        </div>
     </div>
+
 </div>
 
 ### History

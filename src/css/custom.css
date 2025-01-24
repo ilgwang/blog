@@ -222,104 +222,95 @@ p {
   width: auto;
 }
 
-.styleContent {
-  position: relative;
-}
 
-.styleContent1 {
-  margin-top: 1rem;
-  position: relative;
-  left: -1rem;
-}
-
-.styleContent2 {
-  margin-top: 8rem;
-  position: relative;
-  left: 1rem;
-}
-
-.styleContent3 {
-  margin-top: 8rem;
-  position: relative;
-  left: 0.9rem;
-  top: 0.1rem;
-}
 
 
 .circle {
-  width: 60px;
-  height: 60px;
-  background-color: #121c85;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(51, 112, 234);
   border-radius: 50%;
-  margin-top: 1rem;
   position: relative;
-  left: 8rem;
-  top: 5rem;
-}
-.circle img {
-  padding-top: 4px;
+  top: 2.5rem;
 }
 
-.circle1 {
-  width: 60px;
-  height: 60px;
-  background-color: #121c85;
-  border-radius: 50%;
-  position: absolute;
-  bottom: -10px;
-  left: -5rem;
-  top: 4rem;
-  background-image: url('../../static/img/blog/plabfootball.png');
-  background-size: 80%;
-  background-position: center; 
-  object-fit: cover;
-  background-repeat: no-repeat;
+.circle img {
+  filter: brightness(0) invert(1);
+  width: 4rem;
+  position: relative;
+  top: 0.5rem;
 }
+
+.circle img {
+  padding-top: 6px;
+  justify-content: center; 
+}
+
+.circleFontStyle1{
+  color: #350cda;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.circleFontStyle2{
+  color: #350cda;
+  padding-left: 1rem;
+}
+
+.circleFontStyle3{
+  color: #350cda;
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+.circleFontStyle4{
+  color: #350cda;
+  padding-right: 1rem;
+}
+
+.textStyle1 {
+  text-align: left;
+  position: relative;
+  left: 5rem;
+}
+.textStyle2{
+  text-align: left;
+  position: relative;
+  left: 5.7rem;
+}
+
 
 .circle2 {
-  width: 60px;
-  height: 60px;
-  background-color: #121c85;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(51, 112, 234);
   border-radius: 50%;
-  position: absolute;
-  left: 11rem;
-  top: 6rem;
-  background-image: url('../../static/img/blog/docusaurus.png');
-  background-size: 80%;
-  background-position: center; 
-  background-repeat: no-repeat; 
-}
-
-.circle3 {
-  width: 60px;
-  height: 60px;
-  background-color: #121c85;
-  border-radius: 50%;
-  position: absolute;
-  left: -3rem;
-  top: 6rem;
-  background-image: url('../../static/img/blog/notion.png');
-  background-size: 140%;
-  background-position: center; 
-  background-repeat: no-repeat; 
-}
-
-.styleFont {
-  font-weight: bold;
-  color: #5865f2;
-  font-size: 1.3rem;
   position: relative;
-  left: -6rem;
-  top: 3.5rem;
+  top: 2.5rem;
+  margin-left: 12rem;
+}
+.circle2 img {
+  padding-top: 6px;
 }
 
-.fontStyleSize {
-  font-size: 1rem;
-  font-weight: bold;
-  position: relative;
-  left: -5rem;
-  top: 3.5rem;
+
+
+.row {
+  width: 100%;
 }
+.row2 {
+  margin-top: 1rem;
+  width: 100%;
+  padding-left: 3rem;
+}
+
+.row3 {
+  margin-top: 1rem;
+  width: 100%;
+  padding-left: 3rem;
+}
+
+
 
 .iconLink {
   text-decoration: none;
