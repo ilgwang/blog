@@ -17,7 +17,7 @@ sslProtocol="TLS"
 ### 3. setcap 
 <div style={{marginLeft:'1.5rem'}}>
 ```bash
-setcap 'cap_net_bind_service=+ep' $(readlink -f $(which java))/>
+setcap 'cap_net_bind_service=+ep' $(readlink -f $(which java))
 ```
 </div>
 
