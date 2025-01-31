@@ -148,7 +148,7 @@ slug: "/"
        <div className="profileImageStyle">
             ![Ceevee](../../static/img/blog/profileImage2.png)
             <div className="commentBubble">
-                <h4>몸으로 익히가 마음으로 이해하는 <span>개발자 최일광</span>입니다.</h4>
+                <h5>몸으로 익히가 마음으로 이해하는 <span>개발자 최일광</span>입니다.</h5>
             </div>
        </div>
         <div className="shortInfo">

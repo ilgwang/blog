@@ -510,7 +510,7 @@ p {
   color:black;
   left: 13rem;
   width: 48%;
-  text-align: left;
+  text-align: center;
 }
 .commentBubble::after {
   content: '';
@@ -529,6 +529,11 @@ p {
 
 .commentBubble span {
   background-color: rgb(196, 202, 255);
+}
+
+.commentBubble h5 {
+  top: 0.5rem;
+  position: relative;
 }
 
 .footerHistory {
