@@ -1,0 +1,82 @@
+.indexHome {
+    position: relative;
+    background-color: rgb(51, 112, 234);
+    width: 40%;
+    left: 50%;
+    top: 6rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px #1359e5;
+}
+
+.indexHome ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.indexHome li {
+    margin-bottom: 1rem;
+}
+
+.indexHome li div {
+    margin-bottom: 0.5rem;
+}
+
+.schedule {
+    background-color: rgb(199, 223, 247);
+    color: black
+}
+.scheduleHeader {
+    font-weight: bolder;
+    margin-bottom: 0px !important;
+    margin-left: 1rem
+}
+.scheduleBody {
+    margin-left: 1rem;
+    color: rgb(93, 156, 252);
+}
+.verticalLine {
+    position: absolute;
+    width: 3px;
+    height: 12%;
+    left: 1.2rem;
+    top: 3.56rem;
+    background-color: #2012e0; 
+}
+
+.verticalLine2 {
+    position: absolute;
+    width: 3px;
+    left: 1.2rem;
+    height: 12%;
+    top: 7.86rem;
+    background-color: #5a50eb; 
+}
+
+.verticalLine3 {
+    position: absolute;
+    width: 3px;
+    left: 1.2rem;
+    height: 12%;
+    top: 12.2rem;
+    background-color: #9b95f0; 
+}
+
+.verticalLine4 {
+    position: absolute;
+    width: 3px;
+    left: 1.2rem;
+    height: 12%;
+    top: 16.5rem;
+    background-color: #e963cc; 
+}
+
+.verticalLine5 {
+    position: absolute;
+    width: 3px;
+    left: 1.2rem;
+    height: 12%;
+    top: 20.8rem;
+    background-color: #f7a9e6; 
+}

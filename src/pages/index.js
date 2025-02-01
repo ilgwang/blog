@@ -1,19 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
 import Layout from "@theme/Layout";
-import styles from "./styles.module.css";
-import videoBackground from '../../static/img/background.mp4';
-import { MyInfo } from "./Info/myInfo";
-import { History } from "./Info/history";
-import { Skill } from "./Info/skill";
-import arrowRight from '../../static/img/blog/arrowRight.png';
-import arrowLeft from '../../static/img/blog/arrowLeft.png';
+import index from "./index.module.css";
 
 function Home() {
   const mainRef = useRef(null);
   const [isLoading, setIsLoading] = useState(true);
   const [headerHeight, setHeaderHeight] = useState(1536);
   const [bannerHeight, setBannerHeight] = useState(256);
-  const [currentStep, setCurrentStep] = useState(0); // 0: MyInfo, 1: History, 2: Skill
 
   useEffect(() => {
     const tempHeaderHeight = Math.max(384, window.innerHeight);
@@ -23,61 +16,42 @@ function Home() {
     mainRef.current.hidden = false;
   }, []);
 
-  const handleArrowRightClick = () => {
-    setCurrentStep((prevStep) => (prevStep + 1) % 3); // 순환
-  };
-
-  const handleArrowLeftClick = () => {
-    setCurrentStep((prevStep) => (prevStep - 1 + 3) % 3); // 순환
-  };
-
   return (
     <Layout title="Home">
       <header>
-        <div style={{ position: 'relative' }}>
-          <div className={styles.videoContainer}>
-            <video className={styles.videoStyle} src={videoBackground} autoPlay loop muted />
+          <div className={index.indexHome} >
+              <h3>Daily Schedule</h3>
+              <div>
+                  <ul>
+                      <li className={index.schedule}>
+                          <div className={index.scheduleHeader}>기상 및 작업 준비</div>
+                          <div className={index.scheduleBody}>5:00 am ~ 05:20 am</div>
+                          <div className={index.verticalLine}></div> 
+                      </li>
+                      <li className={index.schedule}>
+                          <div className={index.scheduleHeader}>홈 트레이닝</div>
+                          <div className={index.scheduleBody}>05:20 am ~ 06:00 am</div>
+                          <div className={index.verticalLine2}></div> 
+                      </li>
+                      <li className={index.schedule}>
+                          <div className={index.scheduleHeader}>자기 개발 진행</div>
+                          <div className={index.scheduleBody}>06:00 am ~ 08:00 am</div>
+                          <div className={index.verticalLine3}></div> 
+                      </li>
+                      <li className={index.schedule}>
+                          <div className={index.scheduleHeader}>출근 준비</div>
+                          <div className={index.scheduleBody}>08:00 am ~ 08:20 am</div>
+                          <div className={index.verticalLine4}></div> 
+                      </li>
+                      <li className={index.schedule}>
+                          <div className={index.scheduleHeader}>출근 및 회사 업무 진행</div>
+                          <div className={index.scheduleBody}>09:00 am ~ </div>
+                          <div className={index.verticalLine5}></div> 
+                      </li>
+                  </ul>
+              </div>
           </div>
-
-          {/* {currentStep === 0 && (
-            <div className={styles.myInfoContainer}>
-              <MyInfo />
-            </div>
-          )}
-
-          <div className={styles.styleArrow} onClick={handleArrowRightClick}>
-            <img 
-              src={arrowRight} 
-              className={styles.arrowImg} 
-              alt="Arrow" 
-              style={{ filter: 'invert(100%) brightness(100%)', marginLeft:'4rem' }} 
-            />
-          </div>
-
-          <div className={styles.styleArrow2} onClick={handleArrowLeftClick}>
-            <img 
-              src={arrowLeft} 
-              className={styles.arrowImg} 
-              alt="Arrow" 
-              style={{ filter: 'invert(100%) brightness(100%)', marginLeft:'4rem' }} 
-            />
-          </div>
-
-          {currentStep === 1 && (
-            <div className={styles.myInfoContainer2} style={{ width: '54.5rem', height: '33.5rem' }}>
-              <History />
-            </div>
-          )}
-
-          {currentStep === 2 && (
-            <div className={styles.myInfoContainer2} style={{ width: '54.5rem', height: '33.5rem' }}>
-              <Skill />
-            </div>
-          )} */}
-          
-        </div>
       </header>
-
       <main id="main" ref={mainRef} hidden={isLoading}>
       </main>
     </Layout>
