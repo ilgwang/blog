@@ -1,6 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import Layout from "@theme/Layout";
 import index from "./index.module.css";
+import githubImage from '../../static/img/blog/githubImage.png';
+import gmailImage from '../../static/img/blog/gmail-icon-free-png.webp';
+import myInfoImage from '../../static/img/blog/myInfoImage.png';
+import { Link } from 'react-router-dom';
 
 function Home() {
   const mainRef = useRef(null);
@@ -24,7 +28,7 @@ function Home() {
               <div>
                   <ul>
                       <li className={index.schedule}>
-                          <div className={index.scheduleHeader}>기상 및 작업 준비</div>
+                          <div className={index.scheduleHeader}>침구 정리 및 운동 준비</div>
                           <div className={index.scheduleBody}>5:00 am ~ 05:20 am</div>
                           <div className={index.verticalLine}></div> 
                       </li>
@@ -49,6 +53,25 @@ function Home() {
                           <div className={index.verticalLine5}></div> 
                       </li>
                   </ul>
+              </div>
+          </div>
+          <div className={index.calendarIcon}>
+              <div>
+                  안녕하세요. <br/><span id={index.profileName}> 최일광</span> 입니다.
+              </div>
+              <div>
+                  주니어 웹 개발자로서 끊임없이 배우고 성장하고 있습니다. 
+              </div>
+              <div className={index.githubImage}>
+                  <a href="https://github.com/ilgwang" target="_blank" rel="noopener noreferrer" title="GitHub">
+                      <img src={githubImage} className={index.profileStyle} />
+                  </a>
+                  <a href="mailto:ig95@gmail.com" title="Gmail">
+                      <img src={gmailImage} className={index.profileStyle2} />
+                  </a>
+                  <Link to="/docs">
+                      <img src={myInfoImage} className={index.profileStyle3} />
+                  </Link>
               </div>
           </div>
       </header>

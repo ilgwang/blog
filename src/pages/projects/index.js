@@ -155,10 +155,9 @@ function FollowUp() {
   return (
     <section className={styles.directory}>
       <div className="container">
-        <h3>Continue exploring?</h3>
         <nav className="pagination-nav">
           <div className="pagination-nav__item">
-            <Link className="pagination-nav__link" to={useBaseUrl("blog/")}>
+            <Link className="pagination-nav__link" to={useBaseUrl("docs/")}>
               <div className="pagination-nav__sublabel">Read</div>
               <div className="pagination-nav__label">My blog</div>
             </Link>

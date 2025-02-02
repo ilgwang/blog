@@ -3,7 +3,7 @@
     background-color: rgb(51, 112, 234);
     width: 40%;
     left: 50%;
-    top: 6rem;
+    top: 7rem;
     padding: 1rem;
     color: white;
     border-radius: 5%;
@@ -79,4 +79,44 @@
     height: 12%;
     top: 20.8rem;
     background-color: #f7a9e6; 
+}
+
+.calendarIcon {
+    position: relative;
+    left: 10%;
+    top: -18rem;
+    width: 30rem; 
+    height: auto; 
+    border-radius: 3%;
+    font-size: 20px;
+}
+
+#profileName {
+    color: #2012e0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.profileStyle {
+    width: 40px;
+    margin-top: 1rem;
+    color: white;
+    filter: brightness(0) invert(1);
+}
+
+.profileStyle2 {
+    width: 40px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: white;
+}
+
+.profileStyle3 {
+    width: 44px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: white;
+    position: relative;
+    top: 0.16rem;
 }
