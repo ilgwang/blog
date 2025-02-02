@@ -45,7 +45,7 @@ module.exports = {
   url: "https://evantay.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  favicon: "img/logo.png",
+  favicon: "img/logo5.png",
   organizationName: "digipie",
   projectName: "kaya-folio",
   themeConfig: {
@@ -58,9 +58,11 @@ module.exports = {
       hideOnScroll: true,
       title: "My Info",
       logo: {
-        alt: "My Info",
-        src: "img/logo.png",
+        alt: "",
+        src: "img/logo5.png",
         target: "_self",
+        width: 30, 
+        height: 22, 
       },
       items: [
         // { to: "blog/", label: "Blog", position: "left" },
