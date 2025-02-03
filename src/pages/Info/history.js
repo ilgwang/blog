@@ -79,4 +79,4 @@ const History = () => {
   );
 };
 
-export { History };
+export default { History };

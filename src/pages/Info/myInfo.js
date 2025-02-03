@@ -100,4 +100,4 @@ const MyInfo = () => {
   );
 };
 
-export { MyInfo };
+export default { MyInfo };

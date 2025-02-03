@@ -101,4 +101,4 @@ const Skill = () => {
   );
 };
 
-export { Skill };
+export default { Skill };
