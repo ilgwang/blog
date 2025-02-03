@@ -42,7 +42,7 @@ module.exports = {
   title: "My Info",
   tagline:
     "A Senior Full-Stack Software Engineer passionate about solving meaningful problems at scale.",
-  url: "https://evantay.com",
+  url: " https://ilgwang.github.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/logo5.png",
@@ -121,4 +121,18 @@ module.exports = {
       };
     },
   ],
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'fa'],
+    path: 'i18n',
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        calendar: 'gregory',
+        path: 'en',
+      },
+    },
+  },
 };
