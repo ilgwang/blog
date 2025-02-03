@@ -40,10 +40,11 @@ const internetProfiles = {
 
 module.exports = {
   title: "My Info",
-  tagline:
-    "A Senior Full-Stack Software Engineer passionate about solving meaningful problems at scale.",
-  url: " https://ilgwang.github.com",
+  url: " https://ilgwang.github.io",
   baseUrl: "/",
+  projectName: 'ilgwang.github.io',
+  organizationName: 'ilgwang',
+  trailingSlash: false,
   onBrokenLinks: "throw",
   favicon: "img/logo5.png",
   organizationName: "digipie",
@@ -121,18 +122,4 @@ module.exports = {
       };
     },
   ],
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fa'],
-    path: 'i18n',
-    localeConfigs: {
-      en: {
-        label: 'English',
-        direction: 'ltr',
-        htmlLang: 'en-US',
-        calendar: 'gregory',
-        path: 'en',
-      },
-    },
-  },
 };
