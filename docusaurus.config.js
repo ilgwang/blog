@@ -40,15 +40,13 @@ const internetProfiles = {
 
 module.exports = {
   title: "My Info",
-  url: " https://ilgwang.github.io",
-  baseUrl: "/",
-  projectName: 'ilgwang.github.io',
-  organizationName: 'ilgwang',
+  url: "https://ilgwang.github.io",  
+  baseUrl: "/", 
+  projectName: 'blog',  
+  organizationName: 'ilgwang', 
   trailingSlash: false,
   onBrokenLinks: "throw",
   favicon: "img/logo5.png",
-  organizationName: "digipie",
-  projectName: "kaya-folio",
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
@@ -66,7 +64,6 @@ module.exports = {
         height: 22, 
       },
       items: [
-        // { to: "blog/", label: "Blog", position: "left" },
         {
           to: "docs/",
           activeBasePath: "docs/",
@@ -89,15 +86,9 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           disableVersioning: false,
-          // editCurrentVersion: false,
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   editUrl: "https://github.com/DigiPie/kaya-folio/tree/main/website/",
-        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -122,4 +113,11 @@ module.exports = {
       };
     },
   ],
+  customFields: {
+    deploymentBranch: 'deploy-branch',
+    remoteUrl: 'https://github.com/ilgwang/blog.git',
+    organizationName: 'ilgwang', 
+    projectName: 'blog',
+  },
 };
+
