@@ -41,7 +41,7 @@ const internetProfiles = {
 module.exports = {
   title: "My Info",
   url: "https://ilgwang.github.io",  
-  baseUrl: "/", 
+  baseUrl: "/blog/", 
   projectName: 'blog',  
   organizationName: 'ilgwang', 
   trailingSlash: false,
