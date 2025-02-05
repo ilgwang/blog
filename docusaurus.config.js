@@ -40,8 +40,8 @@ const internetProfiles = {
 
 module.exports = {
   title: "My Info",
-  url: "https://ilgwang.github.io",  
-  baseUrl: "/blog/", 
+  url: "https://ilgwang.netlify.app",  
+  baseUrl: "/", 
   projectName: 'blog',  
   organizationName: 'ilgwang', 
   trailingSlash: false,
@@ -113,11 +113,5 @@ module.exports = {
       };
     },
   ],
-  customFields: {
-    deploymentBranch: 'deploy-branch',
-    remoteUrl: 'https://github.com/ilgwang/blog.git',
-    organizationName: 'ilgwang', 
-    projectName: 'blog',
-  },
 };
 
