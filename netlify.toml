@@ -1,2 +1,2 @@
 [build]
-  environment = { GO_VERSION = "", NPM_REGISTRY = "https://registry.npmjs.org", YARN_VERSION = "1.22.19" }
+  environment = { GO_VERSION = "", NPM_REGISTRY = "https://registry.npmjs.org", YARN_VERSION = "1.22.19", NODE_VERSION = "20.17.0" }
