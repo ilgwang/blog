@@ -97,7 +97,7 @@ module.exports = {
   ],
   stylesheets: [
     {
-      href: "http://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css",
+      href: "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css",
       type: "text/css",
     },
   ],
