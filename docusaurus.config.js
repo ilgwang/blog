@@ -34,13 +34,13 @@ const internetProfiles = {
   },
   resume: {
     label: "Resume",
-    href: "https://ilgwang.netlify.app/pdf/최일광_경력기술서.pdf",
+    href: "https://ig95.netlify.app/pdf/최일광_경력기술서.pdf",
   },
 };
 
 module.exports = {
   title: "My Info",
-  url: "https://ilgwang.netlify.app",  
+  url: "https://ig95.netlify.app",  
   baseUrl: "/", 
   projectName: 'blog',  
   organizationName: 'ilgwang', 
