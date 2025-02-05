@@ -1,6 +1,3 @@
 [build]
-  environment = { 
-    GO_VERSION = "", 
-    NPM_REGISTRY = "https://registry.npmjs.org",
-    NODE_VERSION = "20.17.0"
-  }
+  environment = { GO_VERSION = "" }
+  NPM_REGISTRY = "https://registry.npmjs.org"
