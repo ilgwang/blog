@@ -72,7 +72,7 @@ module.exports = {
         },
         { to: "projects/", label: "Projects", position: "right" },
         {
-          href: "https://evantay.com/pdf/resume.pdf",
+          href: "https://ig95.netlify.app/pdf/최일광_경력기술서.pdf",
           label: "Resume",
           position: "right",
         },
