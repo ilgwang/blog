@@ -46,7 +46,7 @@ module.exports = {
   organizationName: 'ilgwang', 
   trailingSlash: false,
   onBrokenLinks: "throw",
-  favicon: "img/logo5.png",
+  favicon: "img/brightness-high_black.svg",
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
@@ -58,9 +58,9 @@ module.exports = {
       title: "My Info",
       logo: {
         alt: "",
-        src: "img/logo5.png",
+        src: "img/brightness-high.svg",
         target: "_self",
-        width: 30, 
+        width: 22, 
         height: 22, 
       },
       items: [
