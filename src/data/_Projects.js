@@ -5,8 +5,8 @@ const projects = [
   {
     category: "Website",
     title: "Blog",
-    slug: "#kaya-folio",
-    imageUrl: "img/blog/blogMain.png",
+    slug: "#blog",
+    imageUrl: "img/blog/blog_main.png",
     subtitle:
       "2주에 한번씩 여러 개발자분들과 진행하는 스터디에서, 소개가 되어 관심을 가지고 학습을 시작하게 되었습니다.",
     period: "January 2025 to Present",

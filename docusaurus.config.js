@@ -34,7 +34,7 @@ const internetProfiles = {
   },
   resume: {
     label: "Resume",
-    href: "https://evantay.com/pdf/resume.pdf",
+    href: "https://ilgwang.netlify.app/pdf/최일광_경력기술서.pdf",
   },
 };
 
