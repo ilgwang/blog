@@ -3,20 +3,17 @@ import React from "react";
 const projects = [
 
   {
-    category: "Website",
+    category: "Blog",
     title: "Blog",
     slug: "#blog",
     imageUrl: "img/blog/blog_main.png",
     subtitle:
-      "2주에 한번씩 여러 개발자분들과 진행하는 스터디에서, 소개가 되어 관심을 가지고 학습을 시작하게 되었습니다.",
+      "2주에 한번씩 여러 개발자분들과 진행하는 스터디에서, Docusaurus 알게 되어 관심을 가지고 개발을 진행하게 되었습니다.",
     period: "January 2025 to Present",
     tech: "Docusaurus 3.5.2, ReactJS",
     description: (
       <>
-        <p>
-          포트폴리오 템플릿 프로젝트를 처음 시작한 건 2025년 01월에 시작하여 현재까지 커스터 마이징을 지속적으로 진행하고 있습니다.
-        </p>
-        <p>
+       <p>
           <a href="https://docusaurus.io/" target="_blank">
             Docusaurus 3.5.2
           </a>{" "}
@@ -28,12 +25,10 @@ const projects = [
           .
         </p>
         <p>
-          <a href="https://github.com/DigiPie/kaya-folio/workflows/deploy-docusaurus/badge.svg">
-            <img src="https://github.com/DigiPie/kaya-folio/workflows/deploy-docusaurus/badge.svg" />
-          </a>{" "}
-          <a href="https://img.shields.io/website?url=https%3A%2F%2Fevantay.com">
-            <img src="https://img.shields.io/website?url=https%3A%2F%2Fevantay.com" />
-          </a>
+          2025년 01월에 시작하여 현재까지 커스터 마이징을 지속적으로 진행하고 있습니다.
+        </p>
+       
+        <p>
         </p>
         <p>
           이 블로그는 Evan Tay 소스를 커스터 마이징하여 개발 되었습니다.
@@ -44,10 +39,6 @@ const projects = [
       {
         name: "GitHub repository",
         link: "https://github.com/ilgwang",
-      },
-      {
-        name: "Website",
-        link: "",
       },
     
     ],
