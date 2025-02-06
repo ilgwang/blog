@@ -34,19 +34,19 @@ const internetProfiles = {
   },
   resume: {
     label: "Resume",
-    href: "https://evantay.com/pdf/resume.pdf",
+    href: "https://ig95.netlify.app/pdf/최일광_경력기술서.pdf",
   },
 };
 
 module.exports = {
   title: "My Info",
-  url: "https://ilgwang.netlify.app",  
+  url: "https://ig95.netlify.app",  
   baseUrl: "/", 
   projectName: 'blog',  
   organizationName: 'ilgwang', 
   trailingSlash: false,
   onBrokenLinks: "throw",
-  favicon: "img/logo5.png",
+  favicon: "img/brightness-high_black.svg",
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
@@ -58,9 +58,9 @@ module.exports = {
       title: "My Info",
       logo: {
         alt: "",
-        src: "img/logo5.png",
+        src: "img/brightness-high.svg",
         target: "_self",
-        width: 30, 
+        width: 22, 
         height: 22, 
       },
       items: [
@@ -72,7 +72,7 @@ module.exports = {
         },
         { to: "projects/", label: "Projects", position: "right" },
         {
-          href: "https://evantay.com/pdf/resume.pdf",
+          href: "https://ig95.netlify.app/pdf/최일광_경력기술서.pdf",
           label: "Resume",
           position: "right",
         },
@@ -97,7 +97,7 @@ module.exports = {
   ],
   stylesheets: [
     {
-      href: "http://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css",
+      href: "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css",
       type: "text/css",
     },
   ],
