@@ -15,7 +15,7 @@ etc/pki/tls/certs
 ### 2. jks 파일 생성
 <div style={{marginLeft:'1.5rem'}}>
 ```bash
-keytool -genkey -alias tomcat -keyalg RSA -keystore /etc/pki/tls/certs/인증서명.jks
+keytool -genkeypair -alias basex -keyalg RSA -keystore 인증서명.jks -validity 365 -keysize 2048
 ```
 </div>
 
