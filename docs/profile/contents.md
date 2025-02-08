@@ -3,7 +3,7 @@ title: Profile
 slug: "/"
 ---
 
-### My Info
+### 1. My Info
 <div>
     <div className="myInfoContainer">
         <div className="box">
@@ -43,7 +43,7 @@ slug: "/"
                 </div>
                 <div style={{ marginLeft: '50px' }}>
                     <div className="gitlabStyle">Github</div>
-                    <div className="gitlabStyle">https://example.com</div>
+                    <div className="gitlabStyle">https://github.com/ilgwang</div>
                 </div>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', marginTop:'1rem' }} className="profileBackground">
@@ -52,7 +52,7 @@ slug: "/"
               </div>
               <div style={{ marginLeft: '50px' }} >
                   <div className="gitlabStyle">Blog</div>
-                  <div className="gitlabStyle" >https://example.com</div>
+                  <div className="gitlabStyle" >https://ig95.netlify.app/</div>
               </div>
            </div>
             <div className="row row2">
@@ -99,7 +99,7 @@ slug: "/"
     </div>
 </div>
 
-### History
+### 2. History
 <div className="myInfoContainer2">
     <div className="historyLine">
         <div className="yearStyle1">
@@ -160,7 +160,7 @@ slug: "/"
     </div>
 </div>
 
-### Work Experience
+### 3. Work Experience
 <div>
     <div className="myInfoContainer4">
         <div >
@@ -221,7 +221,8 @@ slug: "/"
          </div>
     </div>
 </div>
-### Skills
+
+### 4. Skills
 <div className="myInfoContainer3">
     <div className="historyLine2">
         <h3 className="skillStyle">Skills</h3>
