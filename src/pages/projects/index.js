@@ -165,7 +165,7 @@ function FollowUp() {
           <div className="pagination-nav__item pagination-nav__item--next">
             <a
               className="pagination-nav__link"
-              href={useBaseUrl("pdf/resume.pdf")}
+              href={useBaseUrl("pdf/최일광 _이력서.pdf")}
             >
               <div className="pagination-nav__sublabel">Download</div>
               <div className="pagination-nav__label">My resume</div>
@@ -209,13 +209,11 @@ export default function Projects() {
 
   return (
     <Layout title="Projects" description={siteConfig.tagline}>
-      <header className={styles.projectPageHeader}>
-        <h2 className="border-0 border-b-4 border-solid border-success">
-          My projects
-        </h2>
-      </header>
+      {/* <header className={styles.projectPageHeader}>
+   
+      </header> */}
       {loaded && (
-        <main>
+        <main className={styles.projectBackground}>
           <div className="py-6 md:py-12">
             <div className="my-0 mx-auto max-w-7xl">
               {!showProjectItem && <ProjectListings />}
