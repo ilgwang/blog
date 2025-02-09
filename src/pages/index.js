@@ -8,18 +8,49 @@ import myInfoImage from '../../static/img/blog/myInfoImage.png';
 import { Link } from 'react-router-dom';
 
 function Home() {
-  const mainRef = useRef(null);
-  const [isLoading, setIsLoading] = useState(true);
-  const [headerHeight, setHeaderHeight] = useState(1536);
-  const [bannerHeight, setBannerHeight] = useState(256);
+    const mainRef = useRef(null);
+    const [isLoading, setIsLoading] = useState(true);
+    const [headerHeight, setHeaderHeight] = useState(1536);
+    const [bannerHeight, setBannerHeight] = useState(256);
+    const [currentTime, setCurrentTime] = useState(new Date());
+    const [careerDuration, setCareerDuration] = useState("");
 
-  useEffect(() => {
-    const tempHeaderHeight = Math.max(384, window.innerHeight);
-    setHeaderHeight(tempHeaderHeight);
-    setBannerHeight(Math.max(256, tempHeaderHeight / 2));
-    setIsLoading(false);
-    mainRef.current.hidden = false;
-  }, []);
+    useEffect(() => {
+        const tempHeaderHeight = Math.max(384, window.innerHeight);
+        setHeaderHeight(tempHeaderHeight);
+        setBannerHeight(Math.max(256, tempHeaderHeight / 2));
+        setIsLoading(false);
+        if (mainRef.current) {
+            mainRef.current.hidden = false;
+        }
+    }, []);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentTime(new Date());
+        }, 1000 * 60 * 60 * 12);
+
+        return () => clearInterval(interval);
+    }, []);
+
+    useEffect(() => {
+        const startDate = new Date(2022, 0, 1); // 2022년 1월 1일
+        const today = new Date();
+
+        const diffYears = today.getFullYear() - startDate.getFullYear();
+        const diffMonths = today.getMonth() - startDate.getMonth();
+
+        let years = diffYears;
+        let months = diffMonths;
+
+        if (diffMonths < 0) {
+            years -= 1;
+            months += 12;
+        }
+
+        setCareerDuration(`${years}년 ${months - 1}개월`);
+    }, []);
+
 
   return (
     <Layout title="Home">
@@ -75,6 +106,12 @@ function Home() {
                         <img src={myInfoImage} className={index.profileStyle3} />
                     </Link>
                 </div>
+
+                <div style={{ marginTop: '4rem' }}>
+                    <div style={{fontSize:'23px',fontWeight:'bold'}}>{currentTime.toLocaleDateString().replace(/\.$/, "")} 현재</div>
+                    <div style={{position:'relative',left:'39%',top:'-1.1rem',fontSize:'15px',fontWeight:'bold'}}>경력: {careerDuration}</div>
+                </div>
+
             </div>
           </div>
       </header>
