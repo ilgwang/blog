@@ -1,5 +1,6 @@
 import React from "react";
-import hbs_example1 from '../../static/img/blog/hbs_example1.png';
+import hbs_dashboard from '../../static/img/blog/hbs_dashboard.png';
+import hbs_budgets from '../../static/img/blog/hbs_budgets.png';
 
 const projects = [
 
@@ -45,22 +46,40 @@ const projects = [
     title: "HBS",
     slug: "#hbs",
     subtitle: "피그마를 활용한 화면설계",
-    period: "April 2020",
-    tech: "Mocha, Chai, NodeJS, ExpressJS, MongoDB",
-    sample: (
+    period: "Jen 2025",
+    tech: "Figma",
+    sample: [
         <>
-          <img src={hbs_example1} />
+            <img 
+              src={hbs_dashboard} 
+              style={{
+                width: '40%',       
+                height: 'auto',      
+                borderRadius: '8px', 
+                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' 
+              }} 
+              alt="Example Image" 
+            />
+            <img 
+              src={hbs_budgets} 
+              style={{
+                width: '40%',       
+                height: 'auto',
+                marginLeft: '1rem',      
+                borderRadius: '8px', 
+                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' 
+              }} 
+              alt="Example Image" 
+            />
         </>
-    ),
+    ],
     description: (
       <>
         <p>
         </p>
         <p>
-          An up-to-date 2020 example of how you can use Mocha and Chai to
-          perform API testing for a Node-ExpressJS-Mongoose app. You will be
-          able to test your code locally and also automatically using Github
-          Action.
+            화면설계를 작성할 수 있는 많은 틀들이 있지만 원할한 의사소통과 피드백을 위해서 피그마가 
+            프로젝트 환경에 적절하다고 생각하여 사용하게 되었습니다. 
         </p>
         <p>
           <a

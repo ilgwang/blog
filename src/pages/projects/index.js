@@ -102,7 +102,7 @@ export function ProjectListing(props) {
       
       <b></b>
       <div>{projectItem.sample}</div>
-      
+
       <div>
         <ul>
           <li>
