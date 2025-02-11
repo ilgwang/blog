@@ -1,4 +1,5 @@
 import React from "react";
+import hbs_example1 from '../../static/img/blog/hbs_example1.png';
 
 const projects = [
 
@@ -39,45 +40,51 @@ const projects = [
     ],
   },
 
-  // {
-  //   category: "Project",
-  //   title: "mocha-chai-mongoose",
-  //   slug: "#mocha-chai-mongoose",
-  //   imageUrl: "img/projects/mochai.png",
-  //   subtitle: "An example for testing a NodeJS-MongoDB app with Mocha-Chai.",
-  //   period: "April 2020",
-  //   tech: "Mocha, Chai, NodeJS, ExpressJS, MongoDB",
-  //   description: (
-  //     <>
-  //       <p>
-  //         An up-to-date 2020 example of how you can use Mocha and Chai to
-  //         perform API testing for a Node-ExpressJS-Mongoose app. You will be
-  //         able to test your code locally and also automatically using Github
-  //         Action.
-  //       </p>
-  //       <p>
-  //         <a
-  //           href="https://github.com/DigiPie/mocha-chai-mongoose/workflows/Node.js%20CI/badge.svg"
-  //           title="Node.js CI"
-  //         >
-  //           <img src="https://github.com/DigiPie/mocha-chai-mongoose/workflows/Node.js%20CI/badge.svg" />
-  //         </a>
-  //       </p>
-  //       <p>
-  //         I worked on this project to learn more about API testing using{" "}
-  //         <a href="https://mochajs.org/">Mocha</a> and{" "}
-  //         <a href="https://www.chaijs.com/">Chai</a>, and also to practice
-  //         setting up a NodeJS-ExpressJS-Mongoose backend application.
-  //       </p>
-  //     </>
-  //   ),
-  //   links: [
-  //     {
-  //       name: "GitHub repository",
-  //       link: "https://github.com/DigiPie/mocha-chai-mongoose",
-  //     },
-  //   ],
-  // },
+  {
+    category: "파라과이 축산",
+    title: "HBS",
+    slug: "#hbs",
+    subtitle: "피그마를 활용한 화면설계",
+    period: "April 2020",
+    tech: "Mocha, Chai, NodeJS, ExpressJS, MongoDB",
+    sample: (
+        <>
+          <img src={hbs_example1} />
+        </>
+    ),
+    description: (
+      <>
+        <p>
+        </p>
+        <p>
+          An up-to-date 2020 example of how you can use Mocha and Chai to
+          perform API testing for a Node-ExpressJS-Mongoose app. You will be
+          able to test your code locally and also automatically using Github
+          Action.
+        </p>
+        <p>
+          <a
+            href="https://github.com/DigiPie/mocha-chai-mongoose/workflows/Node.js%20CI/badge.svg"
+            title="Node.js CI"
+          >
+            <img src="https://github.com/DigiPie/mocha-chai-mongoose/workflows/Node.js%20CI/badge.svg" />
+          </a>
+        </p>
+        <p>
+          I worked on this project to learn more about API testing using{" "}
+          <a href="https://mochajs.org/">Mocha</a> and{" "}
+          <a href="https://www.chaijs.com/">Chai</a>, and also to practice
+          setting up a NodeJS-ExpressJS-Mongoose backend application.
+        </p>
+      </>
+    ),
+    links: [
+      {
+        name: "GitHub repository",
+        link: "https://github.com/DigiPie/mocha-chai-mongoose",
+      },
+    ],
+  },
 
   // {
   //   category: "Open Source Tool",

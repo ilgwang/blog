@@ -99,6 +99,10 @@ export function ProjectListing(props) {
       {projectItem.imageUrl && (
         <img src={useBaseUrl(projectItem.imageUrl)} alt={projectItem.title} />
       )}
+      
+      <b></b>
+      <div>{projectItem.sample}</div>
+      
       <div>
         <ul>
           <li>
@@ -125,6 +129,7 @@ export function ProjectListing(props) {
             </li>
           )}
         </ul>
+    
         <b>Description</b>
         <div>{projectItem.description}</div>
         {projectItem.links && (
