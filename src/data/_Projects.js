@@ -8,7 +8,7 @@ const projects = [
     slug: "#blog",
     imageUrl: "img/blog/blog_main.png",
     subtitle:
-      "2주에 한번씩 여러 개발자분들과 진행하는 스터디에서, Docusaurus 알게 되어 관심을 가지고 개발을 진행하게 되었습니다.",
+      "회사 업무 중 이전에 사용한 기술을 다시 활용해야 할 때마다 검색에 많은 시간이 걸렸습니다. 이를 줄이고 업무 효율을 높이기 위해  블로그에 기록하여 시간을 효과적으로 활용하기 위해 시작하였습니다. ",
     period: "January 2025 to Present",
     tech: "Docusaurus 3.5.2, ReactJS",
     description: (
@@ -22,16 +22,11 @@ const projects = [
             ReactJS
           </a>
           를 사용하여 개발을 진행하고 있습니다.
-          .
-        </p>
-        <p>
           2025년 01월에 시작하여 현재까지 커스터 마이징을 지속적으로 진행하고 있습니다.
         </p>
        
         <p>
-        </p>
-        <p>
-          이 블로그는 Evan Tay 소스를 커스터 마이징하여 개발 되었습니다.
+          <a>이 블로그는 Evan Tay 소스를 커스터 마이징하여 개발 되었습니다.</a>
         </p>
       </>
     ),
