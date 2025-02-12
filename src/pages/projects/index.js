@@ -48,11 +48,7 @@ export function ProjectListings() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-4 px-4 md:px-0">
       {projects.map((project) => (
-        <div
-          id={project.title}
-          key={project.title + "-card"}
-          className="bg-secondary-800 hover:bg-secondary-900 transition rounded-lg overflow-hidden"
-        >
+        <div id={project.title} key={project.title + "-card"} className="bg-secondary-800 hover:bg-secondary-900 transition rounded-lg overflow-hidden">
           <Link
             to={useBaseUrl(project.slug)}
             className="block h-full text-white hover:text-white no-underline hover:no-underline"
@@ -73,7 +69,7 @@ export function ProjectListings() {
               </div>
             )}
             <div className="pt-4 px-4">
-              <h3 className="mb-1">{project.title}</h3>
+              <h4 className="mb-1">{project.title}</h4>
               <p className="text-s mb-2 text-secondary-500">{project.period}</p>
               <p>{project.subtitle}</p>
               <p className="text-primary-default font-bold">Read more</p>
@@ -94,8 +90,16 @@ export function ProjectListing(props) {
           Back
         </button>
       </Link>
-      <h1>{projectItem.title}</h1>
+      <h3 style={{marginTop:'1rem',marginBottom:'2rem'}}>{projectItem.title}</h3>
       <h2>{projectItem.subtitle}</h2>
+      <h3>
+          <CategoryIcon category={projectItem.category} />{" "} 
+          {projectItem.analyze}
+      </h3>
+      <div style={{marginTop:'1rem',marginBottom:'2rem', marginLeft:'1rem'}}> 
+          {projectItem.analyzeDescription}
+      </div>
+
       {projectItem.imageUrl && (
         <img src={useBaseUrl(projectItem.imageUrl)} alt={projectItem.title} />
       )}

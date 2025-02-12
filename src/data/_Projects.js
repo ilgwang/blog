@@ -9,6 +9,7 @@ const projects = [
     title: "Blog",
     slug: "#blog",
     imageUrl: "img/blog/blog_main.png",
+    analyze:"결과",
     subtitle:
       "회사 업무 중 이전에 사용한 기술을 다시 활용해야 할 때마다 검색에 많은 시간이 걸렸습니다. 이를 줄이고 업무 효율을 높이기 위해  블로그에 기록하여 시간을 효과적으로 활용하기 위해 시작하였습니다. ",
     period: "January 2025 to Present",
@@ -42,35 +43,28 @@ const projects = [
   },
 
   {
-    category: "파라과이 축산",
-    title: "HBS",
+    category: "DHPP(Data Hub Platfrom Paraguay)",
+    title: "DHPP(Data Hub Platfrom Paraguay) ",
     slug: "#hbs",
-    subtitle: "피그마를 활용한 화면설계",
+    subtitle: "",
     period: "Jen 2025",
     tech: "Figma",
+    analyze:"Database 분석",
+    analyzeDescription:(
+        <>
+            <p>
+                분석 단계에서 가장 큰 고민은 내가 파악한 내용을 효과적으로 공유하는 방법이었다. 처음에는 문서로 작성하려 했지만, 직관성이 부족했다.
+                그래서 직접 보면서 설명할 수 있도록 간단한 웹을 만들어 공유하는 것이 더 효과적이라고 판단하였다.
+            </p>
+            <p>
+                개발시 선
+            </p>
+        </>
+    ),
     sample: [
         <>
-            <img 
-              src={hbs_dashboard} 
-              style={{
-                width: '40%',       
-                height: 'auto',      
-                borderRadius: '8px', 
-                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' 
-              }} 
-              alt="Example Image" 
-            />
-            <img 
-              src={hbs_budgets} 
-              style={{
-                width: '40%',       
-                height: 'auto',
-                marginLeft: '1rem',      
-                borderRadius: '8px', 
-                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' 
-              }} 
-              alt="Example Image" 
-            />
+            <img  src={hbs_dashboard} style={{ width: '40%',height: 'auto', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'  }}  />
+            <img  src={hbs_budgets} style={{ width: '40%',height: 'auto',marginLeft: '1rem',  borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }} />
         </>
     ],
     description: (
