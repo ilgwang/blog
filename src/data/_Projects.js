@@ -1,6 +1,11 @@
 import React from "react";
-import hbs_dashboard from '../../static/img/blog/hbs_dashboard.png';
-import hbs_budgets from '../../static/img/blog/hbs_budgets.png';
+import figma_dashboard from '../../static/img/blog/figma_dashboard.png';
+import figma_invoice from '../../static/img/blog/figma_invoice.png';
+import figma_receipt from '../../static/img/blog/figma_receipt.png';
+
+import budgets from '../../static/img/blog/budget.png';
+import budget_detail from '../../static/img/blog/budget_detail.png';
+import invoice from '../../static/img/blog/invoice.png';
 
 const projects = [
 
@@ -9,7 +14,7 @@ const projects = [
     title: "Blog",
     slug: "#blog",
     imageUrl: "img/blog/blog_main.png",
-    analyze:"결과",
+    analyze1:"",
     subtitle:
       "회사 업무 중 이전에 사용한 기술을 다시 활용해야 할 때마다 검색에 많은 시간이 걸렸습니다. 이를 줄이고 업무 효율을 높이기 위해  블로그에 기록하여 시간을 효과적으로 활용하기 위해 시작하였습니다. ",
     period: "January 2025 to Present",
@@ -57,46 +62,47 @@ const projects = [
                 그래서 직접 보면서 설명할 수 있도록 간단한 웹을 만들어 공유하는 것이 더 효과적이라고 생각하였습니다.
             </p>
             <p>
-                개발시 우선적으로 고민한 내용이 개발에 많은 시간이 들어가면 안된다.
+                개발시 우선적으로 고민한 내용이 개발에 많은 시간이 들어가면 안되는 거였다. 그래서 선택한 것이 Express - Node.js 였다. 
             </p>
         </>
     ),
-    sample: [
+
+    analyzeSample:[
+      <>
+          <img  src={budgets} style={{ width: '30%',height: 'auto',marginLeft: '0.4rem', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'  }}  />
+          <img  src={budget_detail} style={{ width: '30%',height: 'auto',marginLeft: '1rem',  borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }} />
+          <img  src={invoice} style={{ width: '30%',height: '5.3rem', marginLeft: '1rem', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }} />
+      </>
+    ],
+
+    uiux:"화면 설계",
+    uiuxDescription:(
+      <>
+          <p>
+            기존에는 화면 설계 시 주로 PPT를 활용해 왔다. 
+            그러나 이번 프로젝트에서는 보다 효율적인 작업이 가능한 Figma가 더 적합하다고 판단하여 이를 도입하게 되었다.
+          </p>
+          <p>
+            Figma는 실시간 협업이 가능하고, 직관적인 UI 설계 및 빠른 피드백 반영이 가능하다는 강점이 있다. 
+            이를 통해 화면 설계 과정이 더욱 신속하고 원활하게 진행될 수 있다고 판단하였다. 
+          </p>
+          
+      </>
+    ),
+    
+    uiuxSample: [
         <>
-            <img  src={hbs_dashboard} style={{ width: '40%',height: 'auto', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'  }}  />
-            <img  src={hbs_budgets} style={{ width: '40%',height: 'auto',marginLeft: '1rem',  borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }} />
+            <img  src={figma_dashboard} style={{ width: '30%',height: '6rem',marginLeft: '1.3rem', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'  }}  />
+            <img  src={figma_invoice} style={{ width: '30%',height: '6rem',marginLeft: '1rem',  borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }} />
+            <img  src={figma_receipt} style={{ width: '30%',height: '6rem',marginLeft: '1rem',  borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }} />
         </>
     ],
     description: (
       <>
-        <p>
-        </p>
-        <p>
-            화면설계를 작성할 수 있는 많은 틀들이 있지만 원할한 의사소통과 피드백을 위해서 피그마가 
-            프로젝트 환경에 적절하다고 생각하여 사용하게 되었습니다. 
-        </p>
-        <p>
-          <a
-            href="https://github.com/DigiPie/mocha-chai-mongoose/workflows/Node.js%20CI/badge.svg"
-            title="Node.js CI"
-          >
-            <img src="https://github.com/DigiPie/mocha-chai-mongoose/workflows/Node.js%20CI/badge.svg" />
-          </a>
-        </p>
-        <p>
-          I worked on this project to learn more about API testing using{" "}
-          <a href="https://mochajs.org/">Mocha</a> and{" "}
-          <a href="https://www.chaijs.com/">Chai</a>, and also to practice
-          setting up a NodeJS-ExpressJS-Mongoose backend application.
-        </p>
+      
       </>
     ),
-    links: [
-      {
-        name: "GitHub repository",
-        link: "https://github.com/DigiPie/mocha-chai-mongoose",
-      },
-    ],
+ 
   },
 
   // {
