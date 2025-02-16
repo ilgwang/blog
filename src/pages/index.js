@@ -61,7 +61,7 @@ function Home() {
                 <div>
                     <ul>
                         <li className={index.schedule}>
-                            <div className={index.scheduleHeader}>침구 정리 및 운동 준비</div>
+                            <div className={index.scheduleHeader}>기상</div>
                             <div className={index.scheduleBody}>5:00 am ~ 05:20 am</div>
                             <div className={index.verticalLine}></div> 
                         </li>
