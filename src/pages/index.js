@@ -48,7 +48,7 @@ function Home() {
             months += 12;
         }
 
-        setCareerDuration(`${years}년 ${months - 1}개월`);
+        setCareerDuration(`${years}년 ${months}개월`);
     }, []);
 
 

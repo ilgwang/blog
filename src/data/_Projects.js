@@ -52,7 +52,7 @@ const projects = [
     title: "DHPP(Data Hub Platfrom Paraguay) ",
     slug: "#hbs",
     subtitle: "",
-    period: "Jen 2025",
+    period: "2024.12 ~ ",
     tech: "Figma",
     analyze:"Database 분석",
     analyzeDescription:(

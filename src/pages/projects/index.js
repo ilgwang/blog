@@ -93,7 +93,7 @@ export function ProjectListing(props) {
       <h3 style={{marginTop:'1rem',marginBottom:'2rem'}}>{projectItem.title}</h3>
       <h2>{projectItem.subtitle}</h2>
       <h3>
-          <CategoryIcon category={projectItem.category} />{" "} 
+          {/* <CategoryIcon category={projectItem.category} />{" "}  */}
           {projectItem.analyze}
       </h3>
       <div style={{marginTop:'1rem',marginBottom:'2rem', marginLeft:'1.3rem'}}> 
@@ -104,7 +104,7 @@ export function ProjectListing(props) {
       </div>
 
       <h3>
-          <CategoryIcon category={projectItem.category} />{" "} 
+          {/* <CategoryIcon category={projectItem.category} />{" "}  */}
           {projectItem.uiux}
       </h3>
       <div style={{marginTop:'1rem',marginBottom:'2rem', marginLeft:'1.3rem'}}> 
