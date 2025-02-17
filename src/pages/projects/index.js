@@ -184,7 +184,7 @@ function FollowUp() {
           <div className="pagination-nav__item pagination-nav__item--next">
             <a
               className="pagination-nav__link"
-              href={useBaseUrl("pdf/최일광 _이력서.pdf")}
+              href={useBaseUrl("pdf/최일광_경력기술서.pdf")}
             >
               <div className="pagination-nav__sublabel">Download</div>
               <div className="pagination-nav__label">My resume</div>

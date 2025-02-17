@@ -34,7 +34,7 @@ const internetProfiles = {
   },
   resume: {
     label: "Resume",
-    href: "https://ig95.netlify.app/pdf/최일광 _이력서.pdf",
+    href: "https://ig95.netlify.app/pdf/최일광_경력기술서.pdf",
   },
 };
 
@@ -72,7 +72,7 @@ module.exports = {
         },
         { to: "projects/", label: "Projects", position: "right" },
         {
-          href: "https://ig95.netlify.app/pdf/최일광 _이력서.pdf",
+          href: "https://ig95.netlify.app/pdf/최일광_경력기술서.pdf",
           label: "Resume",
           position: "right",
         },
