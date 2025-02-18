@@ -30,5 +30,12 @@ module.exports = {
         "BaseX/rest-tls",  
       ],
     },
+    {
+      type: "category", 
+      label: "정보처리기사",     
+      items: [
+        "EIP/소프트웨어설계",  
+      ],
+    },
   ],
 };
