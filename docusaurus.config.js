@@ -20,10 +20,6 @@ const internetProfiles = {
     label: "Email",
     href: "mailto:evan.it.sg@gmail.com",
   },
-  // blog: {
-  //   label: "Blog",
-  //   to: "blog",
-  // },
   docs: {
     label: "Documentation",
     to: "docs",
@@ -40,14 +36,21 @@ const internetProfiles = {
 
 module.exports = {
   title: "My Info",
-  url: "https://ig95.netlify.app",  
-  baseUrl: "/", 
-  projectName: 'blog',  
-  organizationName: 'ilgwang', 
+  url: "https://ig95.netlify.app",
+  baseUrl: "/",
+  projectName: 'blog',
+  organizationName: 'ilgwang',
   trailingSlash: false,
   onBrokenLinks: "throw",
   favicon: "img/brightness-high_black.svg",
+  themes: ['@docusaurus/theme-mermaid'], 
+  markdown: {
+    mermaid: true,
+  },
   themeConfig: {
+    mermaid: {
+      theme: { light: 'default', dark: 'dark' },  // 테마 설정
+    },
     colorMode: {
       defaultMode: "dark",
       disableSwitch: true,
@@ -60,8 +63,8 @@ module.exports = {
         alt: "",
         src: "img/brightness-high.svg",
         target: "_self",
-        width: 22, 
-        height: 22, 
+        width: 22,
+        height: 22,
       },
       items: [
         {
@@ -113,5 +116,26 @@ module.exports = {
       };
     },
   ],
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        src: 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js',
+        onload: 'mermaid.initialize({startOnLoad: true});', // Mermaid 초기화
+      },
+    },
+    {
+      tagName: 'script',
+      attributes: {
+        innerHTML: `
+          window.addEventListener('load', () => {
+            if (typeof mermaid !== 'undefined') {
+              mermaid.initialize({startOnLoad: true});
+            }
+          });
+        `,
+      },
+    },
+  ],
+  
 };
-

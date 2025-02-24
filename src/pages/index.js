@@ -6,6 +6,7 @@ import githubImage from '../../static/img/blog/githubImage.png';
 import gmailImage from '../../static/img/blog/gmail-icon-free-png.webp';
 import myInfoImage from '../../static/img/blog/myInfoImage.png';
 import { Link } from 'react-router-dom';
+import mermaid from 'mermaid';
 
 function Home() {
     const mainRef = useRef(null);
@@ -49,6 +50,13 @@ function Home() {
         }
 
         setCareerDuration(`${years}년 ${months}개월`);
+    }, []);
+
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+        mermaid.initialize({ startOnLoad: true });
+        }
     }, []);
 
 
