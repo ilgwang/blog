@@ -35,6 +35,7 @@ module.exports = {
       label: "정보처리기사",     
       items: [
         "EIP/Software-Design",  
+        "EIP/Software-Development",  
       ],
     },
   ],
