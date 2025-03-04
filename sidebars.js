@@ -1,6 +1,9 @@
 module.exports = {
   docs: [
- 
+    {
+      type: "doc",       
+      id: "profile/contents",  
+    },
     {
       type: "category",   
       label: "Big Data",  
@@ -36,7 +39,3 @@ module.exports = {
     },
   ],
 };
-// {
-//   type: "doc",       
-//   id: "profile/contents",  
-// },
