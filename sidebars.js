@@ -36,6 +36,7 @@ module.exports = {
       items: [
         "EIP/Software-Design",  
         "EIP/Software-Development",  
+        "EIP/Database-Construction",  
       ],
     },
   ],
