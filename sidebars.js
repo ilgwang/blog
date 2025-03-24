@@ -38,6 +38,7 @@ module.exports = {
         "EIP/Software-Development",  
         "EIP/Database-Construction",  
         "EIP/Programming-Language",  
+        "EIP/Information-System",  
       ],
     },
   ],
